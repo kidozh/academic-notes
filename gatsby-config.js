@@ -1,15 +1,15 @@
 module.exports = {
-  pathPrefix: "/leonids",
+  pathPrefix: "/",
   siteMetadata: {
-    title: `Leonids`,
+    title: `Jiduo's References`,
     author: {
-      name: `@ry_zou`,
-      summary: `web dev`,
+      name: `@kidozh`,
+      summary: `PhD candidate in Mechanical Engineering in The University of Manchester`,
     },
-    description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
-    siteUrl: `https://renyuanz.github.io/leonids`,
+    description: `Jiduo's literature review`,
+    siteUrl: `https://academic.kidozh.com`,
     social: {
-      twitter: `ry_zou`,
+      twitter: `kido_zhang`,
     },
     defaultImage: "images/bg.jpeg",
   },
@@ -47,6 +47,24 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          {
+            resolve: `gatsby-remark-reference-footnotes`,
+            options: {
+              groupInclude: "default",
+
+              inlineLinkPrefix: "",
+              inlineLinkSuffix: "",
+              inlineTextPrefix: "",
+              inlineTextSuffix: "",
+
+              referenceLinkPosition: "start",
+
+              referenceLinkPrefix: "↑ ",
+              referenceLinkSuffix: ".",
+              referenceTextPrefix: "",
+              referenceTextSuffix: " "
+            }
+          }
         ],
       },
     },
