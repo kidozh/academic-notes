@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jiduo's References]]></title><description><![CDATA[Jiduo's literature review]]></description><link>https://academic.kidozh.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 May 2021 21:57:37 GMT</lastBuildDate><item><title><![CDATA[Tool wear mechanism in drilling process]]></title><description><![CDATA[Table of Contents Introduction Cutting mechanism difference in metal and composite material Cutting edge geometry Different failure modes…]]></description><link>https://academic.kidozh.com/tool-wear-mechanism-in-drilling-process/</link><guid isPermaLink="false">https://academic.kidozh.com/tool-wear-mechanism-in-drilling-process/</guid><pubDate>Sat, 29 May 2021 15:20:03 GMT</pubDate><content:encoded>&lt;h1 id=&quot;table-of-contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#table-of-contents&quot; aria-label=&quot;table of contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Table of Contents&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jiduo's References]]></title><description><![CDATA[Jiduo's literature review]]></description><link>https://academic.kidozh.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 May 2021 23:44:51 GMT</lastBuildDate><item><title><![CDATA[Tool wear mechanism in drilling process]]></title><description><![CDATA[Table of Contents Introduction Cutting mechanism difference in metal and composite material Cutting edge geometry Stagnation zone Wear type…]]></description><link>https://academic.kidozh.com/tool-wear-mechanism-in-drilling-process/</link><guid isPermaLink="false">https://academic.kidozh.com/tool-wear-mechanism-in-drilling-process/</guid><pubDate>Sat, 29 May 2021 15:20:03 GMT</pubDate><content:encoded>&lt;h1 id=&quot;table-of-contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#table-of-contents&quot; aria-label=&quot;table of contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Table of Contents&lt;/h1&gt;
 &lt;div class=&quot;table-of-contents&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
@@ -8,6 +8,15 @@
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;#cutting-edge-geometry&quot;&gt;Cutting edge geometry&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#stagnation-zone&quot;&gt;Stagnation zone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#wear-type&quot;&gt;Wear type&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#erosion&quot;&gt;Erosion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#abrasion&quot;&gt;Abrasion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#sliding-and-rolling&quot;&gt;Sliding and rolling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;#different-failure-modes&quot;&gt;Different failure modes&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -85,14 +94,34 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;Wear type&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Primary wear type&lt;/td&gt;
 &lt;td align=&quot;center&quot;&gt;Crater and flank wear&lt;/td&gt;
 &lt;td align=&quot;center&quot;&gt;Edge rounding&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;Predominant wear mechanism&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Erode, abrasion and sliding &amp;#x26; rolling&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Abrasion&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;Major machinability&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Chip breakage&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;Major influential parameters&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;feed rate(double point angle)&lt;sup id=&quot;fnref-15&quot;&gt;&lt;a href=&quot;#fn-15&quot; class=&quot;footnote-ref&quot;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&quot;center&quot;&gt;Chip formation&lt;/td&gt;
 &lt;td align=&quot;center&quot;&gt;Shear deformation&lt;/td&gt;
 &lt;td align=&quot;center&quot;&gt;Intermittent fractures and bouncing cutting force &lt;sup id=&quot;fnref-3&quot;&gt;&lt;a href=&quot;#fn-3&quot; class=&quot;footnote-ref&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;Stagnation zone&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;√&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;×&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&quot;center&quot;&gt;Failure modes&lt;/td&gt;
@@ -106,8 +135,164 @@
 &lt;li&gt;Main cutting edge: eliminate most of material, cutting orthogonally and generate bulk of the &lt;strong&gt;torque&lt;/strong&gt; and &lt;strong&gt;cutting force&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Chisel edge: as a blunt edge with a high rake angle working as a punching process and producing most of the &lt;strong&gt;thrust force&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&quot;stagnation-zone&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#stagnation-zone&quot; aria-label=&quot;stagnation zone permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Stagnation zone&lt;/h3&gt;
+&lt;p&gt;In Stagnation zone, work material &lt;strong&gt;does not flow&lt;/strong&gt; as quickly as the work material flow in the &lt;strong&gt;rake&lt;/strong&gt; and &lt;strong&gt;flank&lt;/strong&gt; surface. Stagnation zone may either contain a &lt;strong&gt;dead metal&lt;/strong&gt; that sticks on the &lt;strong&gt;top&lt;/strong&gt; of the &lt;strong&gt;cutting edge&lt;/strong&gt;, &lt;strong&gt;never sliding&lt;/strong&gt; or may contain a stagnation point. The work material is being separated around the stagnation point either to &lt;strong&gt;form chip&lt;/strong&gt; to &lt;strong&gt;become the new surface&lt;/strong&gt; of the workpiece.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 430px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2c8c15dd44b93c8be507cc6415eee78a/05ed2/STAGNATION-IN-METAL-CUTTING.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.122699386503065%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsTAAALEwEAmpwYAAABN0lEQVQoz5WS2Y6CUBBE7/9/lB8BAhIhCAjKvq8qMyfekZDoPFgPBLu7uqoLxc8/mOfZ87wkSYqiOBwObdu+z4j30rIsPJumgSYrhmFUVfUFua5rSRiGQVGU75Sv1+v9fufldrudz2dWfCAvG6zVruuyLCvL0vd9NKMo2nY/KyMyTRMcouIdGs7zPI/jGDIVvBDk4/GQYgJLtLMN+Gmapqqqtm0TG/5Rxouu65qmOY7Dlj/lIAjY1Pc9V8kjAXzIcGDu93vSlgJ8M5QhM8w6kabpOI7xE9ELOCdtngxxwm63syyLSfuJ0+lEFnQFHAQZbV/AKqeufCqoocNnR59d5IIA+oL/ED5x7rouW4/HI/YIY01Fhi/twJcHs4VLBR6kAlu48HK5YE8qy2lAC59EG4YhXeZR4qJfsBKtJ7lwdrkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Stagnation zone in metal cutting&quot;
+        title=&quot;Stagnation zone in metal cutting&quot;
+        src=&quot;/static/2c8c15dd44b93c8be507cc6415eee78a/05ed2/STAGNATION-IN-METAL-CUTTING.png&quot;
+        srcset=&quot;/static/2c8c15dd44b93c8be507cc6415eee78a/222b7/STAGNATION-IN-METAL-CUTTING.png 163w,
+/static/2c8c15dd44b93c8be507cc6415eee78a/ff46a/STAGNATION-IN-METAL-CUTTING.png 325w,
+/static/2c8c15dd44b93c8be507cc6415eee78a/05ed2/STAGNATION-IN-METAL-CUTTING.png 430w&quot;
+        sizes=&quot;(max-width: 430px) 100vw, 430px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Stagnation zone in metal cutting&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;In machining metals the stagnant zone on cutting edge will &lt;strong&gt;protect&lt;/strong&gt; the edge. &lt;sup id=&quot;fnref-14&quot;&gt;&lt;a href=&quot;#fn-14&quot; class=&quot;footnote-ref&quot;&gt;14&lt;/a&gt;&lt;/sup&gt;. The cutting tool has been divided into 5 zones. Zone 1 and 5 don’t have any &lt;strong&gt;tribological contact&lt;/strong&gt; between work material and chip and &lt;strong&gt;did not show any evidence&lt;/strong&gt; of wear. Zone 2 and 4 contacted the chip and machine surface, which are &lt;strong&gt;crater&lt;/strong&gt; and &lt;strong&gt;flank&lt;/strong&gt; wear respectively. Zone 3 doesn’t exhibit any sign of wear due to &lt;strong&gt;no relative velocity&lt;/strong&gt; between tool and work material.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ad999f822825fe45154d1d773716cebb/922e6/wear-pattern-of-tool.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 88.95705521472392%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABV0lEQVQ4y6WUa0sCQRSGx40uoJVRJLlRkIluLt2IwgoiKiKkUqGyopA+9KGoH9C3/nnvWd6J07LtRV94GD07M+cyZ8aYeC2ClhlSRTBJ+mCedkfNySkSNQtK4ApUh43OejwHr2AcrAMPVOjIpSOxLXFOpGxKMvEBTIAxbrQLmtxoEzTAPtgC+bjIpH4voDBgZn8knj7pXUecy1q3Mscz8B46Tasp4INl1s2Oa/zt6sk7YBTcsOjmnw23wR6osc5N1lBsdTAC5uwCnxGmlSyeDtku6TTQBVhNqFm4mctsGcnqnqcvnRGE+cabkUa6xregxzr+Sv58gYWMm0lWHQbi6MzE8JSiZob9Kak9gwP1/Uh1S6BTXjG72ImISOxt8K161WrG1s/wo/TRXchLQTW8tMYjO6GUVBeP4wrogmtG/MHTk3t9zFcos/Lc+JAvzoZK+4QPbux1/AF3XhixCB6weAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;5 zones of cutting edge&quot;
+        title=&quot;5 zones of cutting edge&quot;
+        src=&quot;/static/ad999f822825fe45154d1d773716cebb/a6d36/wear-pattern-of-tool.png&quot;
+        srcset=&quot;/static/ad999f822825fe45154d1d773716cebb/222b7/wear-pattern-of-tool.png 163w,
+/static/ad999f822825fe45154d1d773716cebb/ff46a/wear-pattern-of-tool.png 325w,
+/static/ad999f822825fe45154d1d773716cebb/a6d36/wear-pattern-of-tool.png 650w,
+/static/ad999f822825fe45154d1d773716cebb/e548f/wear-pattern-of-tool.png 975w,
+/static/ad999f822825fe45154d1d773716cebb/3c492/wear-pattern-of-tool.png 1300w,
+/static/ad999f822825fe45154d1d773716cebb/922e6/wear-pattern-of-tool.png 2140w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;5 zones of cutting edge&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;The stagnation zone is stable during continuous chip formation, but may not stable in other type of chip formation process. The chip formation in CFRP material is dominated by the &lt;strong&gt;fracture&lt;/strong&gt; without any stable stagnant zone. The work material flows around the cutting edge &lt;strong&gt;without any disruption&lt;/strong&gt;, developing into the &lt;strong&gt;edge rounding&lt;/strong&gt;. After the cutting edge become blunt, it can’t efficiently cut the fibre, thus increasing the cutting force.&lt;/p&gt;
+&lt;h3 id=&quot;wear-type&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#wear-type&quot; aria-label=&quot;wear type permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Wear type&lt;/h3&gt;
+&lt;p&gt;Depending on how wear is appearing it can be divided into three main groups: &lt;sup id=&quot;fnref-16&quot;&gt;&lt;a href=&quot;#fn-16&quot; class=&quot;footnote-ref&quot;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Erosion &lt;/li&gt;
+&lt;li&gt;Abrasion&lt;/li&gt;
+&lt;li&gt;Sliding &amp;#x26; rolling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The wearing mechanism is in most cases divided in three phases: deterioration, loss of material and transportation of residual products.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deterioration: material is aged at the damaged surface&lt;/li&gt;
+&lt;li&gt;Material loss: particles are removed through wearing mechanism&lt;/li&gt;
+&lt;li&gt;Residual product transportation: particles are transported away, but also remain squeezed between two surfaces&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;erosion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#erosion&quot; aria-label=&quot;erosion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Erosion&lt;/h4&gt;
+&lt;p&gt;It happens when a stream of particles hit tool surface. It requires &lt;strong&gt;multiple hits&lt;/strong&gt; and leads to &lt;strong&gt;fracture&lt;/strong&gt; of &lt;strong&gt;brittle&lt;/strong&gt; materials. Loss of material on &lt;strong&gt;ductile&lt;/strong&gt; material takes place as a combination of &lt;strong&gt;chip formation&lt;/strong&gt;, &lt;strong&gt;fatigue&lt;/strong&gt; and &lt;strong&gt;shear failure&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;abrasion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#abrasion&quot; aria-label=&quot;abrasion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Abrasion&lt;/h4&gt;
+&lt;p&gt;Wear caused by &lt;strong&gt;hard particles&lt;/strong&gt; or &lt;strong&gt;sharp tips&lt;/strong&gt; on a surface the wear is called abrasion. Material loss is dominated by chip forming, brittle fracture and fatigue. The abrasive particles can be chips from material which becomes hard through deformation harding or oxidation. &lt;/p&gt;
+&lt;p&gt;If a sharp tip from one surface ploughs a groove in the other surface it is denominated two-part abrasion. &lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 450px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5d73ebd031d7b23e066b8b26c2b942c2/20e5d/two-parts-abrasion.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.104294478527606%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAHfAQuFJf/EABkQAAEFAAAAAAAAAAAAAAAAAAABAhESIf/aAAgBAQABBQJXbck//8QAFhEBAQEAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/AQyf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BWf/EABYQAQEBAAAAAAAAAAAAAAAAADEAEP/aAAgBAQAGPwJnP//EABcQAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQEAAT8hjECxqipVH//aAAwDAQACAAMAAAAQdB//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EEQPHD//xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQIBAT8QS4KXf//EABkQAQEBAQEBAAAAAAAAAAAAAAERAEEhUf/aAAgBAQABPxAvIcjzNAhWWTGSCfTf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Two parts abrasion&quot;
+        title=&quot;Two parts abrasion&quot;
+        src=&quot;/static/5d73ebd031d7b23e066b8b26c2b942c2/20e5d/two-parts-abrasion.jpg&quot;
+        srcset=&quot;/static/5d73ebd031d7b23e066b8b26c2b942c2/d2f63/two-parts-abrasion.jpg 163w,
+/static/5d73ebd031d7b23e066b8b26c2b942c2/c989d/two-parts-abrasion.jpg 325w,
+/static/5d73ebd031d7b23e066b8b26c2b942c2/20e5d/two-parts-abrasion.jpg 450w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Two parts abrasion&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;If it is a particle between two surfaces that causes the wear it is denominated three-part abrasion.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 450px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b8bf05e1e2f43a5ffae4199341dd9af9/20e5d/three-parts-abrasion.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.104294478527606%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIDBP/EABYBAQEBAAAAAAAAAAAAAAAAAAMBAv/aAAwDAQACEAMQAAAB3RLi0KX/xAAYEAACAwAAAAAAAAAAAAAAAAABIQACEv/aAAgBAQABBQI2e4Cv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAh/9oACAEDAQE/AQyb/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQIBAT8BqP/EABYQAAMAAAAAAAAAAAAAAAAAAAAQMf/aAAgBAQAGPwIq/8QAFxABAQEBAAAAAAAAAAAAAAAAEQAhAf/aAAgBAQABPyEQ3MbEn//aAAwDAQACAAMAAAAQD9//xAAXEQADAQAAAAAAAAAAAAAAAAAAASER/9oACAEDAQE/EEYg1Z//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EE6w5f/EABkQAQEBAQEBAAAAAAAAAAAAAAERAGEhMf/aAAgBAQABPxC9H7zzPEVWWBpzR6b/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Three parts abrasion&quot;
+        title=&quot;Three parts abrasion&quot;
+        src=&quot;/static/b8bf05e1e2f43a5ffae4199341dd9af9/20e5d/three-parts-abrasion.jpg&quot;
+        srcset=&quot;/static/b8bf05e1e2f43a5ffae4199341dd9af9/d2f63/three-parts-abrasion.jpg 163w,
+/static/b8bf05e1e2f43a5ffae4199341dd9af9/c989d/three-parts-abrasion.jpg 325w,
+/static/b8bf05e1e2f43a5ffae4199341dd9af9/20e5d/three-parts-abrasion.jpg 450w&quot;
+        sizes=&quot;(max-width: 450px) 100vw, 450px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Three parts abrasion&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h4 id=&quot;sliding-and-rolling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#sliding-and-rolling&quot; aria-label=&quot;sliding and rolling permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sliding and rolling&lt;/h4&gt;
+&lt;p&gt;Sliding and rolling wear between two surfaces may end in a great number of surface damage. The dominant mechanisms are shear and fatigue fracture, often proceed by oxidation and mechanical deterioration. One example of wear mechanism is adhesive wear when the tips of two surfaces sliding against each other are welded together and then torn apart. Wear through fatigue where small fragments are lost after repeated periods of rolling contact in for example roller bearings are further example of this type of wear mechanism.&lt;/p&gt;
 &lt;h3 id=&quot;different-failure-modes&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#different-failure-modes&quot; aria-label=&quot;different failure modes permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Different failure modes&lt;sup id=&quot;fnref-4&quot;&gt;&lt;a href=&quot;#fn-4&quot; class=&quot;footnote-ref&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
-&lt;p&gt;The figure below shows three different wear type. &lt;sup id=&quot;fnref-6&quot;&gt;&lt;a href=&quot;#fn-6&quot; class=&quot;footnote-ref&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The figure below shows three different wear type.&lt;sup id=&quot;fnref-6&quot;&gt;&lt;a href=&quot;#fn-6&quot; class=&quot;footnote-ref&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -141,6 +326,42 @@
     &lt;/span&gt;
     &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;A worn cutting tool containing flank, crater and notch wear &lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Figure below show the mechanism for friction and tool wear.&lt;sup id=&quot;fnref-13&quot;&gt;&lt;a href=&quot;#fn-13&quot; class=&quot;footnote-ref&quot;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2ab78063ba1ad8067b84536af385e0c6/46cee/mechanism-for-friction-and-tool-wear.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAACL0lEQVQ4y42U7U/aUBjF+49v2ddlyZYli1+Mix/mAtsiY0MYKKDQFkoLLbSIE6ykCCo6aiG40hfObgsqVEh2k5Pee/v01+ecvlAIjOl06mtx7TjO0n6wZnFQ62CtZhMnx8f+vFqtQhKleY27BP5voFyt4dXLF8hm0ri5uYVU4WHol8+gK4FBKw/ruiJj++MW+v0/uNDqENjPGBlX8xp3pX0qCAkWeVCW5aCpHDLx16AzG7At87HTZx0uAh3Hhe3M7LjurLijacik0ygXQsjvvwed/gC5EoFx18Mqd0sZmhMXzbaO07mU5gAcX8OPaAS5gw0fxpAOs7/eEPs7C47cJ6Bt2xBFEXyphLIgQOB5IgFiRYQkifi5l8GnnW3QB+9wlPL0dtYpAZ8oh7Bta9myZVloNBpQFAVKXUG9XicgCbncEfJEsVgc36NfkTv8hrNTFlpbxvWlijv9ChedMyINqqr66nW7sw7NyYRk58Aic4dk95esu70ezs/b6HQ66N8O8Fvto3c9JDUO7k0L43sTE8vxr/NgEnE5Ho9BeeFns1lsbW4isruLcCiEL+EwOI6DLMuoVSXQLI/IHoNILI9oggHDlkgkZZTLAngSkWEYT5Ztx0ahUEAinsB+KoW9WAzJZBI0TaNI9kskW+88yxZRLBaRp1l/zZF5gWX9eEzTfHzS1Lo3vtVqgWEYVCoV/4F5gNFohHXjgUOt+kK8Ow4GAwyHQ+i67h89eXkH64M/jX8DGg5K+iW/TAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Mechanism for friction and tool wear&quot;
+        title=&quot;Mechanism for friction and tool wear&quot;
+        src=&quot;/static/2ab78063ba1ad8067b84536af385e0c6/a6d36/mechanism-for-friction-and-tool-wear.png&quot;
+        srcset=&quot;/static/2ab78063ba1ad8067b84536af385e0c6/222b7/mechanism-for-friction-and-tool-wear.png 163w,
+/static/2ab78063ba1ad8067b84536af385e0c6/ff46a/mechanism-for-friction-and-tool-wear.png 325w,
+/static/2ab78063ba1ad8067b84536af385e0c6/a6d36/mechanism-for-friction-and-tool-wear.png 650w,
+/static/2ab78063ba1ad8067b84536af385e0c6/e548f/mechanism-for-friction-and-tool-wear.png 975w,
+/static/2ab78063ba1ad8067b84536af385e0c6/3c492/mechanism-for-friction-and-tool-wear.png 1300w,
+/static/2ab78063ba1ad8067b84536af385e0c6/46cee/mechanism-for-friction-and-tool-wear.png 1687w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Mechanism for friction and tool wear&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;h4 id=&quot;flank-wear&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#flank-wear&quot; aria-label=&quot;flank wear permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Flank wear&lt;/h4&gt;
 &lt;p&gt;Flank wear is normal. All inserts will eventually wear out. The best situation is to have the insert wear through flank wear. However, premature flank wear is not desired. The ideal situation is when it is possible to extend the life of the insert before flank wear causes failure, thus minimizing cycle time.The cause of flank wear is generally abrasive wear caused by the &lt;strong&gt;cutting speed&lt;/strong&gt;, the hardness of the part, or a hard skin on the material being removed. Flank wear occurs when &lt;strong&gt;abrasion erodes the coating&lt;/strong&gt; and eventually the substrate. The &lt;strong&gt;ideal flank wear&lt;/strong&gt; is an &lt;strong&gt;even progression&lt;/strong&gt;, making the process &lt;strong&gt;predictable&lt;/strong&gt;.Some remedies to reduce flank wear are to select a grade that has more wear resistance. As a quick fix, one could simply &lt;strong&gt;slow the cutting speed&lt;/strong&gt;, thereby &lt;strong&gt;increasing tool life&lt;/strong&gt; but &lt;strong&gt;sacrificing cycle time&lt;/strong&gt;. Of course, the best solution is to keep cycle time as short as possible. The long-term solution is to select &lt;strong&gt;a better grade&lt;/strong&gt;.&lt;/p&gt;
 &lt;h4 id=&quot;notch-wear&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#notch-wear&quot; aria-label=&quot;notch wear permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Notch wear&lt;/h4&gt;
@@ -157,7 +378,41 @@
 the metal being cut is one that work-hardens and is reluctant to recover.&lt;sup id=&quot;fnref-8&quot;&gt;&lt;a href=&quot;#fn-8&quot; class=&quot;footnote-ref&quot;&gt;8&lt;/a&gt;&lt;/sup&gt; A BUE will not form with pure metals since they do not work-harden much. Conversely, alloys, such as steel, do work-harden and recover less so they are prone to forming a BUE.&lt;sup id=&quot;fnref-9&quot;&gt;&lt;a href=&quot;#fn-9&quot; class=&quot;footnote-ref&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;A built-up edge is when the workpiece material gets &lt;strong&gt;welded&lt;/strong&gt; to the cutting edge. This usually occurs when &lt;strong&gt;cutting temperatures are too low&lt;/strong&gt;. Additional chip flow is needed to avoid it. The remedies to this are to &lt;strong&gt;increase the cutting speed&lt;/strong&gt;, and select a &lt;strong&gt;more positive&lt;/strong&gt; insert geometry. Another remedy would be to &lt;strong&gt;increase the coolant flow&lt;/strong&gt; to add lubricity. In the case of aluminum, use a &lt;strong&gt;polished insert&lt;/strong&gt; to increase lubricity. In gummy steels, use a &lt;strong&gt;smooth, slippery coating&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&quot;md-figure&quot;&gt;&lt;img src=&quot;/48d22146ca6cab0d409ce87a0ef57b7e/Built_up_edge.svg&quot;&gt;&lt;figcaption&gt;Schematic diagram showing a built up edge.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f4be602d387b927c9f1bbd506eb902aa/a8e24/Built_up_edge.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 112.26993865030674%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAEnRAABJ0QEF/KuVAAADAUlEQVQ4y5WUy0sbURTG7yRGq5kktjXEioFilVSkq25c1E12ProRN4ZAFgkqgoJEYpTgI3GjIvkHRN0YX8EX4vtdaBd234W21XXaXaEtE+f2O8OVpibGdODju2cy88s55945bGNjI7m7u8shdWdnh5NErJDHYjHv/v4+W1lZ0bNcrvn5+eTMzAyfnZ1VsSbnc3NzBFIA4Wtra97z83PGOZdyAiKj5NHRET84OFDJDw8POTKiWKE4Ho/7cI81NjYW4HEZegQZIRNkSAPu7e0lT09P+cnJiQrxFCnkS0tL7qmpKeZwOCpMJlO10Wh8LknSC7xaCRULjCTEGPqkAY+Pj1WIp0gDouQQytWeHRsbY9PT06ysrEyLdTpdeskA3twCb7MTQFWsfy0uLr5Db6Orq6surGtqa2uL8GoJgE/gZojcrq3vAlPA1FOVfqOeks7Ozvjy8rLS1tb2Gi9X5+XlOeEOggu3ZgJqMNqcra0tOkYEVtBrFeXz9fV1vr29XUMVWyyWcnhh1pLJKd7c3PwJwA9aE3xhYeEK2QXxB3Ecs6qhoaFUzD+bchd4Q6Uhk+v+/v4vExMTPBqN8snJye/t7e1hl8vlaWhoKPR6vbQ50oObQkDhH30+X6Svr493d3crPT09fGBggI+MjHwYHh5mwWBQGh0dZbkAk+Qo81NdXd0zv99/1dvby+G/AeHhcNgdiUQYoHqscwfi/tdEIsE6Ozv9yIpAlN23wcHBUoiA0p0+ZgdiVy89Hk+B1WqVA4HANUEBiBEE0lHZpExANRMQ5+6itbXVAhjr6OgIAEIZvoW0cjPCHgI2NTWZnE4nq6+vt6GP77Hb1vHxccpQwrD4PyBKvmhpaaFPjD7Ygubm5kq73S6ZzWYp7ez99fuBuP8ZQ4GG6ku9Xv/GZrPlNA5pfN2X4WVXVxfNPhlD4JXBYKCPn8ZWKWQT46tcxFXCswPRNxqqZmRYIabKU+GymDAWEZcIzw4MhUIELM7Pz3/Mcr2yAC/cbjdNEoMsy0Vpzb/n+gOr7+flcgtKhQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Schematic diagram showing a built up edge.&quot;
+        title=&quot;Schematic diagram showing a built up edge.&quot;
+        src=&quot;/static/f4be602d387b927c9f1bbd506eb902aa/a6d36/Built_up_edge.png&quot;
+        srcset=&quot;/static/f4be602d387b927c9f1bbd506eb902aa/222b7/Built_up_edge.png 163w,
+/static/f4be602d387b927c9f1bbd506eb902aa/ff46a/Built_up_edge.png 325w,
+/static/f4be602d387b927c9f1bbd506eb902aa/a6d36/Built_up_edge.png 650w,
+/static/f4be602d387b927c9f1bbd506eb902aa/e548f/Built_up_edge.png 975w,
+/static/f4be602d387b927c9f1bbd506eb902aa/3c492/Built_up_edge.png 1300w,
+/static/f4be602d387b927c9f1bbd506eb902aa/a8e24/Built_up_edge.png 2475w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Schematic diagram showing a built up edge.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;The built up edge effectively changes tool geometry and rake steepness. It also reduces the contact area between the chip and the cutting tool,&lt;sup id=&quot;fnref-7&quot;&gt;&lt;a href=&quot;#fn-7&quot; class=&quot;footnote-ref&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; leading to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A &lt;strong&gt;reduction in the power&lt;/strong&gt; demand of the cutting operation.&lt;sup id=&quot;fnref-7&quot;&gt;&lt;a href=&quot;#fn-7&quot; class=&quot;footnote-ref&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -445,6 +700,22 @@ the metal being cut is one that work-hardens and is reluctant to recover.&lt;sup
 &lt;li id=&quot;fn-12&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Fiber_pull-out&quot;&gt;https://en.wikipedia.org/wiki/Fiber_pull-out&lt;/a&gt;&lt;/p&gt;
 &lt;a href=&quot;#fnref-12&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-13&quot;&gt;
+&lt;p&gt;Wang, P., &amp;#x26; Gao, R. X. (2016). Stochastic tool wear prediction for sustainable manufacturing. Procedia Cirp, 48, 236-241.&lt;/p&gt;
+&lt;a href=&quot;#fnref-13&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-14&quot;&gt;
+&lt;p&gt;Schmidt J. Mechanical and thermal effects in turn hardened steels. Dissertation of University Hannover; 1999.&lt;/p&gt;
+&lt;a href=&quot;#fnref-14&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-15&quot;&gt;
+&lt;p&gt;Karpat, Y., Değer, B., &amp;#x26; Bahtiyar, O. (2012). Drilling thick fabric woven CFRP laminates with double point angle drills. Journal of materials processing technology, 212(10), 2117-2127.&lt;/p&gt;
+&lt;a href=&quot;#fnref-15&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-16&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://xapps.xyleminc.com/Crest.Grindex/help/grindex/contents/wear01.htm&quot;&gt;https://xapps.xyleminc.com/Crest.Grindex/help/grindex/contents/wear01.htm&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#fnref-16&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Finite element modeling of drilling process]]></title><description><![CDATA[Typical approaches There are two main ways of approaching problems that involve the motion of deformable materials - the Lagrangian way and…]]></description><link>https://academic.kidozh.com/drill-process-fem-model/</link><guid isPermaLink="false">https://academic.kidozh.com/drill-process-fem-model/</guid><pubDate>Mon, 24 May 2021 14:03:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;typical-approaches&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#typical-approaches&quot; aria-label=&quot;typical approaches permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Typical approaches&lt;/h1&gt;
