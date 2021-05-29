@@ -1,0 +1,555 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.625 -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}h1{margin-left:0;margin-right:0;margin-top:2.4375rem;padding-bottom:calc(0.40625rem - 1px);padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.21875rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;border-bottom:1px solid hsla(0,0%,0%,0.07);}h2{margin-left:0;margin-right:0;margin-top:1.625rem;padding-bottom:calc(0.40625rem - 1px);padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.40625rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;border-bottom:1px solid hsla(0,0%,0%,0.07);}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:hsla(0,0%,0%,0.53);font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}ul{margin-left:1.625rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.625rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;font-size:0.85rem;line-height:1.625rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;font-size:1rem;line-height:1.625rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}blockquote{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:calc(0.8125rem - 1px);padding-right:0;padding-top:0;margin-bottom:0.8125rem;border-left:4px solid hsla(0,0%,0%,0.13);color:hsla(0,0%,0%,0.53);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(0.8125rem - 1px);background:var(--hr);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}b{font-weight:600;}strong{font-weight:600;}dt{font-weight:600;}th{font-weight:600;}li{margin-bottom:calc(0.8125rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.625rem;margin-bottom:calc(0.8125rem / 2);margin-top:calc(0.8125rem / 2);}li > ul{margin-left:1.625rem;margin-bottom:calc(0.8125rem / 2);margin-top:calc(0.8125rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(0.8125rem / 2);}code{font-size:0.85rem;line-height:1.625rem;}kbd{font-size:0.85rem;line-height:1.625rem;}samp{font-size:0.85rem;line-height:1.625rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.08333rem;padding-right:1.08333rem;padding-top:0.8125rem;padding-bottom:calc(0.8125rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}h3,h4,h5,h6{margin-bottom:0.8125rem;margin-top:1.625rem;}ol,ul{margin-left:2.03125rem;}li>ol,li>ul{margin-left:2.03125rem;}a{color:var(--textLink);text-decoration:none;}a:hover,a:active{text-decoration:underline;}a.anchor{box-shadow:none;}a.anchor svg[aria-hidden="true"]{stroke:var(--textLink);}</style><style data-href="/styles.5a5ba257b09e0f971685.css" id="gatsby-global-css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::-moz-selection,code[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.block{display:block}.flex{display:flex}.table{display:table}.hidden{display:none}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.leading-none{line-height:1}.my-12{margin-top:3rem;margin-bottom:3rem}.p-1{padding:.25rem}.p-4{padding:1rem}.fixed{position:fixed}.relative{position:relative}.text-center{text-align:center}.underline{text-decoration:underline}.transition{transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform}.ease-out{transition-timing-function:cubic-bezier(0,0,.2,1)}@keyframes spin{to{transform:rotate(1turn)}}@keyframes ping{75%,to{transform:scale(2);opacity:0}}@keyframes pulse{50%{opacity:.5}}@keyframes bounce{0%,to{transform:translateY(-25%);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,.2,1)}}body{--bg:#fff;--lightBg:#f5f5f5;--textNormal:#181818;--textTitle:#181818;--textLink:#0366d6;--hr:rgba(3,2,2,0.2);background-color:var(--bg)}body.dark{-webkit-font-smoothing:antialiased;--bg:#1e1e1e;--lightBg:#0f0f0f;--textNormal:#e0e0e0;--textTitle:#fff;--textLink:#ff6363;--hr:hsla(0,0%,100%,0.2)}a.gatsby-resp-image-link{color:var(--bg);transition:all .2s ease}a.gatsby-resp-image-link:hover{cursor:pointer;transform:translateY(-2px);box-shadow:0 6px 13px 2px rgba(0,0,0,.25)}blockquote,h1,h2,h3,h4,h5,h6{color:var(--textTitle)}.footnotes{word-break:break-all}button{border:none;margin:0;padding:0;width:auto;overflow:visible;background:transparent;cursor:pointer;color:inherit;font:inherit;line-height:normal;-webkit-font-smoothing:inherit;-moz-osx-font-smoothing:inherit;-webkit-appearance:none;outline:0}.sidebar{height:200px;width:100%;position:fixed;z-index:1;top:0;left:0;overflow-x:hidden;text-align:center;background-color:var(--lightBg)}.main-content{background-color:var(--bg);position:absolute;top:200px;z-index:10;padding:0 20px;margin-left:0}@media only screen and (min-width:768px){.sidebar{height:100vh;width:380px}.main-content{padding:0 100px;height:100vh;width:calc(100% - 380px);margin-left:380px;top:0}}figcaption{text-align:center;font-size:large;font-family:Cambria,Cochin,Georgia,Times,Times New Roman,serif}figcaption:before{content:"Figure. ";color:var(--textLink);margin-right:.5rem}@media (min-width:768px){.md\:h-screen{height:100vh}}</style><meta name="generator" content="Gatsby 2.32.13"/><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="icon" href="/favicon-32x32.png?v=4a9773549091c227cd2eb82ccd9c5e3a" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><title data-react-helmet="true">Tool wear mechanism in drilling process | Jiduo&#x27;s References</title><meta data-react-helmet="true" name="description" content="Tool wear mechanism in both composite material and metal"/><meta data-react-helmet="true" property="og:title" content="Tool wear mechanism in drilling process"/><meta data-react-helmet="true" property="og:description" content="Tool wear mechanism in both composite material and metal"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="kido_zhang"/><meta data-react-helmet="true" name="twitter:title" content="Tool wear mechanism in drilling process"/><meta data-react-helmet="true" name="twitter:description" content="Tool wear mechanism in both composite material and metal"/><link as="script" rel="preload" href="/webpack-runtime-80aa1a6b250978343cd5.js"/><link as="script" rel="preload" href="/framework-8e528b732ab2eaadb7b7.js"/><link as="script" rel="preload" href="/app-9ed6688ffee8a5b14823.js"/><link as="script" rel="preload" href="/styles-407fe62976dc5310c43e.js"/><link as="script" rel="preload" href="/547d6747ad54289c4cf011054cc421f3a7a5d337-8db5b9d9b90c2500486c.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-9b5e2db60e7a6aa7442a.js"/><link as="fetch" rel="preload" href="/page-data\tool-wear-mechanism-in-drilling-process\page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1246554614.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data\app-data.json" crossorigin="anonymous"/></head><body><script>
+void function() {
+  window.__onThemeChange = function() {}
+
+  var preferredTheme
+  try {
+    preferredTheme = localStorage.getItem('theme')
+  } catch (err) { }
+
+  function setTheme(newTheme) {
+    if (preferredTheme && document.body.classList.contains(preferredTheme)) {
+      document.body.classList.replace(preferredTheme, newTheme)
+    } else {
+      document.body.classList.add(newTheme)
+    }
+
+    window.__theme = newTheme
+    preferredTheme = newTheme
+    window.__onThemeChange(newTheme)
+  }
+
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme)
+    try {
+      localStorage.setItem('theme', newTheme)
+    } catch (err) {}
+  }
+
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)')
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  })
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'))
+}()
+    </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="background-color:var(--bg);color:var(--textNormal);transition:color 0.2s ease-out, background 0.2s ease-out;min-height:100vh"><div class="sidebar"><div class="md:h-screen p-4 flex flex-col justify-center items-center" style="min-height:200px"><h2 style="font-size:2rem;line-height:2.4375rem;margin-bottom:0;margin-top:0;font-family:Montserrat, sans-serif"><a style="box-shadow:none;color:inherit" href="/">Home</a></h2></div></div><div class="main-content relative"><main><article><header><h1 style="margin-bottom:0">Tool wear mechanism in drilling process</h1><p style="font-size:0.87055rem;line-height:1.625rem;display:block;margin-bottom:1.625rem">May 29, 2021</p></header><section><h1 id="table-of-contents" style="position:relative;"><a href="#table-of-contents" aria-label="table of contents permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h1>
+<div class="table-of-contents">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li>
+<p><a href="#cutting-mechanism-difference-in-metal-and-composite-material">Cutting mechanism difference in metal and composite material</a></p>
+<ul>
+<li>
+<p><a href="#cutting-edge-geometry">Cutting edge geometry</a></p>
+<ul>
+<li>
+<p><a href="#different-failure-modes">Different failure modes</a></p>
+<ul>
+<li><a href="#flank-wear">Flank wear</a></li>
+<li><a href="#notch-wear">Notch wear</a></li>
+<li><a href="#crater-wear">Crater wear</a></li>
+<li><a href="#edge-plastic-deformation">Edge plastic deformation</a></li>
+<li><a href="#built-up-edge">Built-up edge</a></li>
+<li><a href="#thermal-cracking">Thermal cracking</a></li>
+<li><a href="#chipping">Chipping</a></li>
+<li><a href="#edge-fracture">Edge Fracture</a></li>
+<li><a href="#fibre-pullout">Fibre pullout</a></li>
+<li><a href="#delamination">Delamination</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#for-metal">For metal</a></li>
+<li><a href="#for-composite-material">For composite material</a></li>
+</ul>
+</li>
+<li><a href="#common-tool-wear-symptoms">Common tool wear symptoms</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+</div>
+<h1 id="introduction" style="position:relative;"><a href="#introduction" aria-label="introduction permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introduction</h1>
+<p>Drilling is one of the most important cutting operations and widely used in aerospace, aircraft and automotive industries. In the process, tool will get blunt and it will lead to severe product failure because of tool’s abrasive behavior. In order to improve manufacturing efficiency, extend product life, reduce energy and improve resource, tool wear monitoring is necessary to achieve the sustainable manufacturing.</p>
+<p>In aerospace and aircraft manufacturing fields, advanced composite material such as fibre reinforced plastic (FRP) are widely used in key structure due to its excellent properties such as high specific strength, stiffness, low thermal expansion, good dimensional stability which are unobtainable with metal alloys.<sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup> Although kinematic of composite cutting process remains the same as in metal cutting<sup id="fnref-2"><a href="#fn-2" class="footnote-ref">2</a></sup>, there are several differences due to the fact that composites are inhomogeneous and anisotropic material made from two constituents: the reinforcements which used to be <strong>brittle</strong> and the matrix tends to be <strong>ductile</strong>. It determines that the cutting and wear mechanism of composite material is quite different with metal.</p>
+<p>In some cases, multi-material stacked structures comprising CFRP and metal alloys have been ever more common. It can make good use of each layer’s property and brings improved strength and toughness of the assembly while reducing its overall weight. bolting and riveting of stacked structures offer an excellent assembly solution to the constrained designed.</p>
+<p>When drilling stacks, the various layers are <strong>clamped</strong> and drilled <strong>together</strong> to eliminate misalignment of holes. It’s a challenging task due to different material properties of each of the stacked structure. As is illustrated before, the cutting mechanism in composite and metal is different and leads to difficulty in product quality control.</p>
+<h1 id="cutting-mechanism-difference-in-metal-and-composite-material" style="position:relative;"><a href="#cutting-mechanism-difference-in-metal-and-composite-material" aria-label="cutting mechanism difference in metal and composite material permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cutting mechanism difference in metal and composite material</h1>
+<h2 id="cutting-edge-geometry" style="position:relative;"><a href="#cutting-edge-geometry" aria-label="cutting edge geometry permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cutting edge geometry</h2>
+<p>The figure below shows two cutting edges of single point turning tool. Single point cutting tools consists of only one cutting edge which can perform matal removal action at a time. Shaping, planing, slotting, boring tools are also single point tool.<sup id="fnref-4"><a href="#fn-4" class="footnote-ref">4</a></sup></p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b25f02c0f9d095efb68a0d13dd5f2f6f/1d69c/Schematic-representation-of-single-point-turning-tool-SPTT.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 103.06748466257669%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAA9hAAAPYQGoP6dpAAACgUlEQVQ4y5VTa3ObQAz0//9VbSafmtixi2MTbIyN4eLwuiev44AukLhpJ52kMxoNp9uVVtIxU3VcN2nVpOVopk+bLq3MENHdcIRHfIiYV0yhE9NSj/oz02V9zybrOhYGIokFvtuWJYkgRKQpvwKusL6XzzKcJRlllGcZiyLOGJeSUzqgo5gvl9K2xf29jOMhUlUMuU4nHoacnJXlkZnrscVC2bacz6XnDTW1HqzrZF1zpQYOfF2zomCArdfy4IlHK9+eyUwomisONBAoC7V9DwmUsXNdx1UltRawq2AAGkP7VoQ8nNU644yjMajFXVXBc8taBsEuDHdPT1vb3sSxh4wgC8HzHFlo3wuCnqs62+/FYiEfH6Xr8qJQx+MpCCxjUqCNSQB1HEuIWGu+2wnLkkIwTqUXh7PGZGXJkRKWZaIoYkK20KwUUeo5z0NKL6671hpZgGGXC48i9kKUQ0BuX1elNW0aeTo5SeLWNaASQSkpGkY69D8ph5Cue5M9kaczY8++vy/LS9vSdohTTBhZgsAuy1hK4fvieBTY60AWv8nDkA+HpePcKxWOZXMgui5rGuG6NipHkVytIE2UJfuj8lR8s/kRhvZqdTuffz8cVlIGRYEllYQ4WsfYArZtDPtb9jjY1PfXfV/0vSrLF8/7+fBwe3NzczxajjOfBjYh2w/JQbAFYko8ZpFVdUHGu7tv4+b4VeO/yGK6NiaD7zocK0J2kP0l8njH3uMQ/yoZG1KKY6r4ycaXKDHFz8nn82ZEZEVBCRne03+RUTkf+5RT8+NTUZ+TEdrvHwixCXmCSRliZmDCY1vvV/UBGdY0Cd4mlgx/uTgYQRBs0Avn5yvzPfkXjfykXqI3ue0AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Schematic representation of single point turning tool"
+        title="Schematic representation of single point turning tool"
+        src="/static/b25f02c0f9d095efb68a0d13dd5f2f6f/a6d36/Schematic-representation-of-single-point-turning-tool-SPTT.png"
+        srcset="/static/b25f02c0f9d095efb68a0d13dd5f2f6f/222b7/Schematic-representation-of-single-point-turning-tool-SPTT.png 163w,
+/static/b25f02c0f9d095efb68a0d13dd5f2f6f/ff46a/Schematic-representation-of-single-point-turning-tool-SPTT.png 325w,
+/static/b25f02c0f9d095efb68a0d13dd5f2f6f/a6d36/Schematic-representation-of-single-point-turning-tool-SPTT.png 650w,
+/static/b25f02c0f9d095efb68a0d13dd5f2f6f/1d69c/Schematic-representation-of-single-point-turning-tool-SPTT.png 750w"
+        sizes="(max-width: 650px) 100vw, 650px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Schematic representation of single point turning tool</figcaption>
+  </figure></p>
+<p>The table below shows the difference between metal and composite material</p>
+<table>
+<thead>
+<tr>
+<th align="center">Type</th>
+<th align="center">Metal</th>
+<th align="center">Composite material</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Wear type</td>
+<td align="center">Crater and flank wear</td>
+<td align="center">Edge rounding</td>
+</tr>
+<tr>
+<td align="center">Chip formation</td>
+<td align="center">Shear deformation</td>
+<td align="center">Intermittent fractures and bouncing cutting force <sup id="fnref-3"><a href="#fn-3" class="footnote-ref">3</a></sup></td>
+</tr>
+<tr>
+<td align="center">Failure modes</td>
+<td align="center">Flank wear, notch wear, crater wear, plastic deformation, built up edge, thermal crack, chipping and edge fracture</td>
+<td align="center">Fibre pullout, delamination, surface damage and burning being delamination</td>
+</tr>
+</tbody>
+</table>
+<p>The drilling operation is produced by two removal process:</p>
+<ul>
+<li>Main cutting edge: eliminate most of material, cutting orthogonally and generate bulk of the <strong>torque</strong> and <strong>cutting force</strong></li>
+<li>Chisel edge: as a blunt edge with a high rake angle working as a punching process and producing most of the <strong>thrust force</strong></li>
+</ul>
+<h3 id="different-failure-modes" style="position:relative;"><a href="#different-failure-modes" aria-label="different failure modes permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Different failure modes<sup id="fnref-4"><a href="#fn-4" class="footnote-ref">4</a></sup></h3>
+<p>The figure below shows three different wear type. <sup id="fnref-6"><a href="#fn-6" class="footnote-ref">6</a></sup></p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/c684e16759c3ba6aac6bf9921d70a216/f8067/Classification-of-a-worn-cutting-tool-showing-crater-wear-flank-wear-and-notch-wear-CFD.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 44.78527607361963%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAABDElEQVQoz22SW2uDQBSE/f+/SxD1RYzaKhJEES/x0sYbXtsvbtkK7TyEk9mZ2dmTKF8njuOQg8S+7zDbtom5ruu2bauqmudZiBXplH45p2n6fiLLsmVZdF2/3W6maZIiNC/z5wkG4pum+TjRdR1MFEWO48irADNBIl0RFGWwQYVhaFkW8YZh9H0vju73O3Oe52VZkjtN029tAdiiKJIkoafv+1zIHASBMAA0cRxrmua6rqqqlH2Zn8+nOHs8HrZtv52gMDwbQkoKcUSzPN4vHrWu68/CsEHRnM7oPM+TjTBwCaf0R0Z/mH9q8yr2QSQKVoqaznwOwzCO49+fQ7l+QVSeoC1buS75+heQzDcBlP5kGZtR9gAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="A worn cutting tool containing flank, crater and notch wear "
+        title="A worn cutting tool containing flank, crater and notch wear "
+        src="/static/c684e16759c3ba6aac6bf9921d70a216/a6d36/Classification-of-a-worn-cutting-tool-showing-crater-wear-flank-wear-and-notch-wear-CFD.png"
+        srcset="/static/c684e16759c3ba6aac6bf9921d70a216/222b7/Classification-of-a-worn-cutting-tool-showing-crater-wear-flank-wear-and-notch-wear-CFD.png 163w,
+/static/c684e16759c3ba6aac6bf9921d70a216/ff46a/Classification-of-a-worn-cutting-tool-showing-crater-wear-flank-wear-and-notch-wear-CFD.png 325w,
+/static/c684e16759c3ba6aac6bf9921d70a216/a6d36/Classification-of-a-worn-cutting-tool-showing-crater-wear-flank-wear-and-notch-wear-CFD.png 650w,
+/static/c684e16759c3ba6aac6bf9921d70a216/f8067/Classification-of-a-worn-cutting-tool-showing-crater-wear-flank-wear-and-notch-wear-CFD.png 726w"
+        sizes="(max-width: 650px) 100vw, 650px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">A worn cutting tool containing flank, crater and notch wear </figcaption>
+  </figure></p>
+<h4 id="flank-wear" style="position:relative;"><a href="#flank-wear" aria-label="flank wear permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Flank wear</h4>
+<p>Flank wear is normal. All inserts will eventually wear out. The best situation is to have the insert wear through flank wear. However, premature flank wear is not desired. The ideal situation is when it is possible to extend the life of the insert before flank wear causes failure, thus minimizing cycle time.The cause of flank wear is generally abrasive wear caused by the <strong>cutting speed</strong>, the hardness of the part, or a hard skin on the material being removed. Flank wear occurs when <strong>abrasion erodes the coating</strong> and eventually the substrate. The <strong>ideal flank wear</strong> is an <strong>even progression</strong>, making the process <strong>predictable</strong>.Some remedies to reduce flank wear are to select a grade that has more wear resistance. As a quick fix, one could simply <strong>slow the cutting speed</strong>, thereby <strong>increasing tool life</strong> but <strong>sacrificing cycle time</strong>. Of course, the best solution is to keep cycle time as short as possible. The long-term solution is to select <strong>a better grade</strong>.</p>
+<h4 id="notch-wear" style="position:relative;"><a href="#notch-wear" aria-label="notch wear permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Notch wear</h4>
+<p>Notch wear appears as a notch on the insert, generally at the <strong>depth of cut</strong> level. It is an <strong>oxidation</strong> at the depth of cut. This oxidation is caused by <strong>high temperatures</strong> and the <strong>presence of air</strong>. Tungsten and cobalt, the main ingredients in carbide inserts, form weak oxide films during oxidation. To remedy notch wear, select a <strong>more wear resistant grade</strong>. Generally inserts coated with Al2O3 which can help prevent oxidation of the substrate. As a quick fix one could <strong>increase the lead angle</strong> on the tool. This would ease the insert into the material and would also provide ”<strong>chip thinning</strong>”. Another remedy would be to <strong>vary the depth of cut</strong>. In this way, the insert is not always cutting at the same depth of cut point. A variation of that method would be to make your <strong>first</strong> <strong>pass a taper</strong> and your next path a straight cut which would produce a constantly changing depth of cut.</p>
+<h4 id="crater-wear" style="position:relative;"><a href="#crater-wear" aria-label="crater wear permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Crater wear</h4>
+<p>Crater wear appears as a <strong>diffusion</strong> between the insert and the workpiece material. It occurs when <strong>enough thermal energy</strong> is created to enable the <strong>exchange of atoms</strong> across the tool-workpiece interface. The amount of diffusion depends on the <strong>chemical affinity</strong> between the two. For instance, <strong>tungsten and steel have a high chemical affinity</strong>. Effective remedies include using a <strong>lower cutting speed</strong>, or choosing <strong>a grade with more wear resistance</strong>. For instance, an Al2O3 coating helps to prevent diffusion and reduces crater wear. If you begin to <strong>lose chip control</strong>, check for crater wear because excessive types of this wear tend to <strong>change the edge geometry</strong> of the insert.</p>
+<h4 id="edge-plastic-deformation" style="position:relative;"><a href="#edge-plastic-deformation" aria-label="edge plastic deformation permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Edge plastic deformation</h4>
+<p>Compression and heat, combined with <strong>high feeds</strong> and <strong>hard work materials</strong>, cause deformation of the insert edge. As edge deformation increases from the <strong>pressure</strong>, <strong>temperatures</strong> continue to rise, contributing to further deformation. Look for the edge to <strong>lose sharpness</strong> and <strong>bulge out</strong> when this happens. A quick fix is to <strong>reduce the speed or feed rate</strong>. But for long-term productivity, a more <strong>wear-resistant grade</strong> is key.</p>
+<h4 id="built-up-edge" style="position:relative;"><a href="#built-up-edge" aria-label="built up edge permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Built-up edge</h4>
+<p>In single point cutting of metals, a built up edge (BUE) is an accumulation of material against the <strong>rake face</strong>, that seizes to the tool tip, separating it from the chip.<sup id="fnref-7"><a href="#fn-7" class="footnote-ref">7</a></sup> </p>
+<p>The conditions necessary for a noticeable edge to build up are that:</p>
+<ul>
+<li>the cutting speed is low.<sup id="fnref-8"><a href="#fn-8" class="footnote-ref">8</a></sup> This is because at high cutting speeds the metal moving away from the workpiece becomes hot enough to recover before seizing onto the tool, preventing the formation of a BUE.<sup id="fnref-9"><a href="#fn-9" class="footnote-ref">9</a></sup>
+the metal being cut is one that work-hardens and is reluctant to recover.<sup id="fnref-8"><a href="#fn-8" class="footnote-ref">8</a></sup> A BUE will not form with pure metals since they do not work-harden much. Conversely, alloys, such as steel, do work-harden and recover less so they are prone to forming a BUE.<sup id="fnref-9"><a href="#fn-9" class="footnote-ref">9</a></sup></li>
+</ul>
+<p>A built-up edge is when the workpiece material gets <strong>welded</strong> to the cutting edge. This usually occurs when <strong>cutting temperatures are too low</strong>. Additional chip flow is needed to avoid it. The remedies to this are to <strong>increase the cutting speed</strong>, and select a <strong>more positive</strong> insert geometry. Another remedy would be to <strong>increase the coolant flow</strong> to add lubricity. In the case of aluminum, use a <strong>polished insert</strong> to increase lubricity. In gummy steels, use a <strong>smooth, slippery coating</strong>.</p>
+<p><figure class="md-figure"><img src="/48d22146ca6cab0d409ce87a0ef57b7e/Built_up_edge.svg"><figcaption>Schematic diagram showing a built up edge.</figcaption></figure></p>
+<p>The built up edge effectively changes tool geometry and rake steepness. It also reduces the contact area between the chip and the cutting tool,<sup id="fnref-7"><a href="#fn-7" class="footnote-ref">7</a></sup> leading to:</p>
+<ul>
+<li>A <strong>reduction in the power</strong> demand of the cutting operation.<sup id="fnref-7"><a href="#fn-7" class="footnote-ref">7</a></sup></li>
+<li><strong>Slight increase</strong> in tool life, since the cutting is partly being done by the built up edge rather than the tool itself.<sup id="fnref-10"><a href="#fn-10" class="footnote-ref">10</a></sup></li>
+</ul>
+<p>However, the formation of BUEs have negative effects on the quality of the workpiece,<sup id="fnref-7"><a href="#fn-7" class="footnote-ref">7</a></sup> specifically:</p>
+<ul>
+<li>Excessive <strong>work hardening</strong> at the surface of the workpiece.<sup id="fnref-7"><a href="#fn-7" class="footnote-ref">7</a></sup></li>
+<li><strong>Poor surface finish</strong>, since bits of the BUE eventually break off and stick to the workpiece. These bits tend to be problematic since, due to the work-hardening they underwent, they are very hard and so become abrasive.<sup id="fnref-7"><a href="#fn-7" class="footnote-ref">7</a></sup></li>
+<li>A <strong>reduction</strong> in the <strong>dimensional control</strong> of the process, due to the dynamically changing geometry of the cutting tool.</li>
+</ul>
+<h4 id="thermal-cracking" style="position:relative;"><a href="#thermal-cracking" aria-label="thermal cracking permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Thermal cracking</h4>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 538px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/e8d980c9dd44d9a6b931bbbe71315bd7/80320/thermal-cracking.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 160.12269938650306%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAgABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAUBBgIDBP/EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABxJZ44xqFYeodtTYCDK//xAAdEAABBAIDAAAAAAAAAAAAAAACAAERIQMTBCIx/9oACAEBAAEFAtIxoTcSsJSwh1Q04eKWTFCx2H//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwEh/8QAHhAAAgEDBQAAAAAAAAAAAAAAAAECECGRERIgMjP/2gAIAQEABj8C1Tlk7yPR4Nr4WdbMR//EAB4QAQACAgEFAAAAAAAAAAAAAAEAESExQRBRcaHB/9oACAEBAAE/IbgERpiFgfWg3WeJkL2gFSorqHk10C215xH+NjvuWsz/2gAMAwEAAgADAAAAEIT5wv/EABcRAQEBAQAAAAAAAAAAAAAAAAERABD/2gAIAQMBAT8QGmuGc//EABgRAAMBAQAAAAAAAAAAAAAAAAABERAx/9oACAECAQE/EGoyIdcz/8QAHRABAAICAwEBAAAAAAAAAAAAAQARIUExUWGxwf/aAAgBAQABPxAUQma49czJp6Lpp/ItA2DBJQwU78gbAghPIg1o5prEoFxm25RFKu9F+pkGJCrwrO2f/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Thermal cracking"
+        title="Thermal cracking"
+        src="/static/e8d980c9dd44d9a6b931bbbe71315bd7/80320/thermal-cracking.jpg"
+        srcset="/static/e8d980c9dd44d9a6b931bbbe71315bd7/d2f63/thermal-cracking.jpg 163w,
+/static/e8d980c9dd44d9a6b931bbbe71315bd7/c989d/thermal-cracking.jpg 325w,
+/static/e8d980c9dd44d9a6b931bbbe71315bd7/80320/thermal-cracking.jpg 538w"
+        sizes="(max-width: 538px) 100vw, 538px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Thermal cracking</figcaption>
+  </figure></p>
+<p>Thermal Cracking is caused by <strong>abrupt temperature changes</strong>. A quick remedy is to <strong>turn the coolant off completely</strong>, or by drenching the tool in coolant to <strong>stabilize the temperature</strong>. Using a tougher, more <strong>wear-resistant grade</strong> is also an effective solution. When doing interrupted cutting, always run without coolant. </p>
+<p>Thermal cracking is often identified by cracks in the tool <strong>perpendicular</strong> to the cutting edge. Cracks form <strong>slowly</strong>, but they can lead to both <strong>chipping</strong> and <strong>premature tool failure</strong>. </p>
+<h4 id="chipping" style="position:relative;"><a href="#chipping" aria-label="chipping permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Chipping</h4>
+<p>Chipping can be easily identified by a <strong>nicked</strong> or <strong>flaked</strong> edge on the cutting tool, or by examining the surface finish of a part. A poor surface finish can often indicate that a tool has experienced some sort of chipping, which can lead to eventual catastrophic tool failure if it is not caught.<sup id="fnref-11"><a href="#fn-11" class="footnote-ref">11</a></sup></p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 589px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/e48cdca1a20e10974b895ca6d1547a0c/86a2c/Chipping.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 135.58282208588957%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgUG/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABcmM46UQHMvi5tFQ//8QAHBAAAgICAwAAAAAAAAAAAAAAAQIAAwQSERMy/9oACAEBAAEFAjmVCDK2dWDiyulIeqU2q9fERRsioFgief/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEDAgcAAAAAAAAAAAAAAAEAESECQRASICIyUWH/2gAIAQEABj8CuVyAHScSt2R/E9IKcRbCVFI0f//EAB0QAQEAAgIDAQAAAAAAAAAAAAEAETFBkSFRYXH/2gAIAQEAAT8h1HRGD9Y4sxweyG6mWbG4P9fEWQw0YTzNHGOQLe0X/9oADAMBAAIAAwAAABCTLX7/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAfEAEAAgAGAwAAAAAAAAAAAAABABEQITFBcaFRYZH/2gAIAQEAAT8QUp+woSh23oDypAqzlZZfMX2XhvoxWyGwPaD4c6opAmqfEILO+C1LXMu4CArzgv/Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Chipping in machine tool"
+        title="Chipping in machine tool"
+        src="/static/e48cdca1a20e10974b895ca6d1547a0c/86a2c/Chipping.jpg"
+        srcset="/static/e48cdca1a20e10974b895ca6d1547a0c/d2f63/Chipping.jpg 163w,
+/static/e48cdca1a20e10974b895ca6d1547a0c/c989d/Chipping.jpg 325w,
+/static/e48cdca1a20e10974b895ca6d1547a0c/86a2c/Chipping.jpg 589w"
+        sizes="(max-width: 589px) 100vw, 589px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Chipping in machine tool</figcaption>
+  </figure></p>
+<p>Chipping occurs when the insert edge <strong>breaks</strong> rather than wears. The fatigue associated with chipping is generally caused by <strong>temperature</strong> and <strong>force fluctuations</strong>. It usually means that the application is too demanding for the selected insert. To remedy this, it is necessary to select an insert with a <strong>stronger cutting edge</strong>. Also, try a <strong>tougher, more shock-resistant</strong> grade of carbide.</p>
+<h4 id="edge-fracture" style="position:relative;"><a href="#edge-fracture" aria-label="edge fracture permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Edge Fracture</h4>
+<p>Fracture is the complete loss of tool usage due to sudden breakage, often as a result of improper speeds and feeds, an incorrect coating, or an inappropriate depth of cut. Tool holder issues or loose work holding can also cause a fracture, as can inconsistencies in workpiece material properties.<sup id="fnref-11"><a href="#fn-11" class="footnote-ref">11</a></sup></p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/57e83df53fc51342f2d7ac26d442dad1/acb04/fractured-tool.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 98.77300613496932%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAQCAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/2gAMAwEAAhADEAAAAdl82MliNqg6YkQH/8QAGhAAAwEBAQEAAAAAAAAAAAAAAAECAxIRMv/aAAgBAQABBQJ1M0jr0+h9Zi26WNtXQqP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAVEQEBAAAAAAAAAAAAAAAAAAAQAf/aAAgBAgEBPwEp/8QAHBAAAgICAwAAAAAAAAAAAAAAAAECERAiMXGR/9oACAEBAAY/Atk+8cCcWi4+F0UPH//EABoQAAMBAQEBAAAAAAAAAAAAAAABESExQVH/2gAIAQEAAT8hmkl8IWRrg3ZzKzpqyl2mxlXoVokMeXh5DEsh/9oADAMBAAIAAwAAABAvDwL/xAAYEQEBAAMAAAAAAAAAAAAAAAAAAREhMf/aAAgBAwEBPxDLa9R//8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBMf/aAAgBAgEBPxCVHTX/xAAdEAEBAAIDAAMAAAAAAAAAAAABEQAhMUFxobHx/9oACAEBAAE/EKGAOYeY72CdOKxUhYvxiDhFladnuWpcqF/fvObCxhd5WW5rNxNyx7xsDZvGf//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Facture of tool"
+        title="Facture of tool"
+        src="/static/57e83df53fc51342f2d7ac26d442dad1/6aca1/fractured-tool.jpg"
+        srcset="/static/57e83df53fc51342f2d7ac26d442dad1/d2f63/fractured-tool.jpg 163w,
+/static/57e83df53fc51342f2d7ac26d442dad1/c989d/fractured-tool.jpg 325w,
+/static/57e83df53fc51342f2d7ac26d442dad1/6aca1/fractured-tool.jpg 650w,
+/static/57e83df53fc51342f2d7ac26d442dad1/acb04/fractured-tool.jpg 750w"
+        sizes="(max-width: 650px) 100vw, 650px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Facture of tool</figcaption>
+  </figure></p>
+<p>Edge fracture happens as a result of the other wear types. Remedy check all the cutting data and setup to consider what it might be. Once the edge fractures, the reason is <strong>unknown</strong>. Ideally, you want to check the insert before a fracture occurs to determine why such an incident might happen. The likely remedies for this are to <strong>reduce the feed rate</strong>, <strong>reduce the cutting speed</strong>, or select a <strong>tougher</strong> grade.</p>
+<h4 id="fibre-pullout" style="position:relative;"><a href="#fibre-pullout" aria-label="fibre pullout permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fibre pullout</h4>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 591px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/7c6f6bb482d70ac2ea0be44ccf06c3b5/5608a/composite-material-pullout.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHB5JKJD//EABoQAAIDAQEAAAAAAAAAAAAAAAABERITAgP/2gAIAQEAAQUCmFkmZvkdWL0qbI//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAAREhEDJB/9oACAEBAAY/AldjbZrJTI5j/8QAHhAAAgICAgMAAAAAAAAAAAAAAREAMSFhUXGRobH/2gAIAQEAAT8hTCllS8TJBm1X2UE2BAhAJ9MPmLDi4onvc//aAAwDAQACAAMAAAAQwM//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhQWExgf/aAAgBAQABPxBs3Er637FKJhWAfvUpD2aFMKUfbGdTC4lKHxvsqYtbDl2f/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Fracture surface of a CVI-SiC/SiC-material (fibre reinforced ceramics with SiC-fibres and SiC-matrix, manufactured via a CVI-process(Chemical Vapour Infiltration))"
+        title="Fracture surface of a CVI-SiC/SiC-material (fibre reinforced ceramics with SiC-fibres and SiC-matrix, manufactured via a CVI-process(Chemical Vapour Infiltration))"
+        src="/static/7c6f6bb482d70ac2ea0be44ccf06c3b5/5608a/composite-material-pullout.jpg"
+        srcset="/static/7c6f6bb482d70ac2ea0be44ccf06c3b5/d2f63/composite-material-pullout.jpg 163w,
+/static/7c6f6bb482d70ac2ea0be44ccf06c3b5/c989d/composite-material-pullout.jpg 325w,
+/static/7c6f6bb482d70ac2ea0be44ccf06c3b5/5608a/composite-material-pullout.jpg 591w"
+        sizes="(max-width: 591px) 100vw, 591px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Fracture surface of a CVI-SiC/SiC-material (fibre reinforced ceramics with SiC-fibres and SiC-matrix, manufactured via a CVI-process(Chemical Vapour Infiltration))</figcaption>
+  </figure></p>
+<p>Fiber pull-out is one of the failure mechanisms in fiber-reinforced composite materials. Other forms of failure include <strong>delamination</strong>, <strong>intralaminar matrix cracking</strong>, <strong>longitudinal matrix splitting</strong>, <strong>fiber/matrix debonding</strong>, and <strong>fiber fracture</strong>. The cause of fiber pull-out and delamination is <strong>weak bonding</strong>. <sup id="fnref-12"><a href="#fn-12" class="footnote-ref">12</a></sup></p>
+<h4 id="delamination" style="position:relative;"><a href="#delamination" aria-label="delamination permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Delamination</h4>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 391px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/a6ecc0d4bde2396dedb0164b41cd401d/6981f/delamination.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 49.079754601226995%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIDBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHUS4oEgf/EABwQAAEDBQAAAAAAAAAAAAAAAAACEzEBAxESIv/aAAgBAQABBQK45mjm3IqEQf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAAMBAAAAAAAAAAAAAAAAAAAgI2L/2gAIAQEABj8CmYX/xAAaEAACAwEBAAAAAAAAAAAAAAARIQABMUEQ/9oACAEBAAE/IbBUXTMRIbuyk5NfT//aAAwDAQACAAMAAAAQ88//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEBAAEFAQAAAAAAAAAAAAABEQAQITFBYXH/2gAIAQEAAT8QgAvZDeriEtg1gCb8e4iII+XEjijOTHWO+/en/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="The delamination of composite material"
+        title="The delamination of composite material"
+        src="/static/a6ecc0d4bde2396dedb0164b41cd401d/6981f/delamination.jpg"
+        srcset="/static/a6ecc0d4bde2396dedb0164b41cd401d/d2f63/delamination.jpg 163w,
+/static/a6ecc0d4bde2396dedb0164b41cd401d/c989d/delamination.jpg 325w,
+/static/a6ecc0d4bde2396dedb0164b41cd401d/6981f/delamination.jpg 391w"
+        sizes="(max-width: 391px) 100vw, 391px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">The delamination of composite material</figcaption>
+  </figure></p>
+<p>Delamination is a mode of failure where a material fractures into layers. In laminated composites, the adhesion between layers often fails first causing the layers to separate. In fiber-reinforced plastics, sheets of high strength reinforcement (e.g., carbon fiber, fiberglass) are bound together by a much weaker polymer matrix (e.g., epoxy). In particular, loads applied <strong>perpendicular</strong> to the high strength layers, and <strong>shear loads</strong> can cause the polymer matrix to fracture or the fiber reinforcement to debond from the polymer.</p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/fb3b82a1e50e8cf7fa3a0daa8a998406/4f4d6/Delamination-CFRP.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 155.82822085889572%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAfABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAABAAFAQL/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAFPhWRi0XKW0LKjKt+pf//EABsQAAIDAQEBAAAAAAAAAAAAAAECAAMRBCES/9oACAEBAAEFAnxGHZ9wO+dHgU4VbyyxLJWMjMyt0LAkUV5//8QAFhEBAQEAAAAAAAAAAAAAAAAAABEQ/9oACAEDAQE/AUyv/8QAGREAAwADAAAAAAAAAAAAAAAAAAEREBIh/9oACAECAQE/Aa+leNT/xAAbEAACAwEBAQAAAAAAAAAAAAAAAQIRITEiMv/aAAgBAQAGPwKNQ1D8IyizTjKTsseCUc0uXD5P/8QAHhAAAgICAgMAAAAAAAAAAAAAAAERITFRQWFxgbH/2gAIAQEAAT8hsFU5nNDkRVVk0z4Hm1RAfAjAqj1cwNuTp6Eni3KksUXQRQxMcIfo/9oADAMBAAIAAwAAABAXLDP/xAAYEQACAwAAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxDIJlz/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QJINWP//EABsQAQADAQEBAQAAAAAAAAAAAAEAESExQdHx/9oACAEBAAE/EEkh2WPQqXLXT8w4MBW3hMYKuQyDEbRe3kRdAvaPsWbQAs5yMuBZ09hgQkBTUEbIHFWXyP5IVTKcyeon/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Delamination of CFRP under compression load."
+        title="Delamination of CFRP under compression load."
+        src="/static/fb3b82a1e50e8cf7fa3a0daa8a998406/6aca1/Delamination-CFRP.jpg"
+        srcset="/static/fb3b82a1e50e8cf7fa3a0daa8a998406/d2f63/Delamination-CFRP.jpg 163w,
+/static/fb3b82a1e50e8cf7fa3a0daa8a998406/c989d/Delamination-CFRP.jpg 325w,
+/static/fb3b82a1e50e8cf7fa3a0daa8a998406/6aca1/Delamination-CFRP.jpg 650w,
+/static/fb3b82a1e50e8cf7fa3a0daa8a998406/7c09c/Delamination-CFRP.jpg 975w,
+/static/fb3b82a1e50e8cf7fa3a0daa8a998406/4f4d6/Delamination-CFRP.jpg 1230w"
+        sizes="(max-width: 650px) 100vw, 650px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">Delamination of CFRP under compression load.</figcaption>
+  </figure></p>
+<h2 id="for-metal" style="position:relative;"><a href="#for-metal" aria-label="for metal permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>For metal</h2>
+<h2 id="for-composite-material" style="position:relative;"><a href="#for-composite-material" aria-label="for composite material permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>For composite material</h2>
+<h1 id="common-tool-wear-symptoms" style="position:relative;"><a href="#common-tool-wear-symptoms" aria-label="common tool wear symptoms permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Common tool wear symptoms</h1>
+<p>In failure analysis, workers will check condition at predetermined intervals and compare condition of insert with typical failure modes. Once the other failure modes have been corrected, measuring <strong>flank wear</strong> can then be the determinant of tool life.</p>
+<ul>
+<li>Visible signs on the insert</li>
+<li>Load Meter</li>
+<li>Part Size</li>
+<li>Work-piece Finish</li>
+<li>Burr Generated</li>
+<li>Work-piece Temperature</li>
+<li>Vibrations</li>
+<li>Sound</li>
+<li>Chatter</li>
+<li>Color of Chip</li>
+<li>Chip Control</li>
+</ul>
+<h1 id="references" style="position:relative;"><a href="#references" aria-label="references permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>References</h1>
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn-1">
+<p>Arul, S. V. L. M. S., Vijayaraghavan, L., Malhotra, S. K., &#x26; Krishnamurthy, R. (2006). The effect of vibratory drilling on hole quality in polymeric composites. International Journal of Machine Tools and Manufacture, 46(3-4), 252-259.</p>
+<a href="#fnref-1" class="footnote-backref">↩</a>
+</li>
+<li id="fn-2">
+<p>Sheikh-Ahmad, J. Y. (2009). Machining of polymer composites (Vol. 387355391). New York: Springer.</p>
+<a href="#fnref-2" class="footnote-backref">↩</a>
+</li>
+<li id="fn-3">
+<p>Fernández-Pérez, J., Cantero, J. L., Díaz-Álvarez, J., &#x26; Miguélez, M. H. (2017). Influence of cutting parameters on tool wear and hole quality in composite aerospace components drilling. Composite Structures, 178, 157-161.</p>
+<a href="#fnref-3" class="footnote-backref">↩</a>
+</li>
+<li id="fn-4">
+<p><a href="http://www.minaprem.com/machining/cutter/geometry/what-is-cutting-edge-in-cutting-tool-its-function-sharpness-and-numbers/">http://www.minaprem.com/machining/cutter/geometry/what-is-cutting-edge-in-cutting-tool-its-function-sharpness-and-numbers/</a></p>
+<a href="#fnref-4" class="footnote-backref">↩</a>
+</li>
+<li id="fn-5">
+<p><a href="https://www.canadianmetalworking.com/canadianmetalworking/news/metalworking/failure-modes-how-they-can-improve-your-machining-processes">https://www.canadianmetalworking.com/canadianmetalworking/news/metalworking/failure-modes-how-they-can-improve-your-machining-processes</a></p>
+<a href="#fnref-5" class="footnote-backref">↩</a>
+</li>
+<li id="fn-6">
+<p>Fallqvist, M. (2012). Microstructural, mechanical and tribological characterisation of CVD and PVD coatings for metal cutting applications (Doctoral dissertation, Uppsala universitet).</p>
+<a href="#fnref-6" class="footnote-backref">↩</a>
+</li>
+<li id="fn-7">
+<p>The Open University (UK), 2001. T881 Manufacture Materials Design: Block 2: Cutting, page 14. Milton Keynes: The Open University.</p>
+<a href="#fnref-7" class="footnote-backref">↩</a>
+</li>
+<li id="fn-8">
+<p>The Open University (UK), 2001. T881 Manufacture Materials Design: Block 2: Cutting, page 14 and 15. Milton Keynes: The Open University.</p>
+<a href="#fnref-8" class="footnote-backref">↩</a>
+</li>
+<li id="fn-9">
+<p>The Open University (UK), 2001. T881 Manufacture Materials Design: Block 2: Cutting, page 15. Milton Keynes: The Open University.</p>
+<a href="#fnref-9" class="footnote-backref">↩</a>
+</li>
+<li id="fn-10">
+<p>Rao, P.N. (2009). Manufacturing Technology - 2, Metal cutting and Machine tools. New Delhi: Tata McGraw-Hill. pp. 9–11. ISBN 978-0-07-008769-9.</p>
+<a href="#fnref-10" class="footnote-backref">↩</a>
+</li>
+<li id="fn-11">
+<p><a href="https://www.harveyperformance.com/in-the-loupe/tag/thermal-cracking/">https://www.harveyperformance.com/in-the-loupe/tag/thermal-cracking/</a></p>
+<a href="#fnref-11" class="footnote-backref">↩</a>
+</li>
+<li id="fn-12">
+<p><a href="https://en.wikipedia.org/wiki/Fiber_pull-out">https://en.wikipedia.org/wiki/Fiber_pull-out</a></p>
+<a href="#fnref-12" class="footnote-backref">↩</a>
+</li>
+</ol>
+</div></section><hr style="margin-bottom:1.625rem"/><footer><div style="display:flex;margin-bottom:4.0625rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.8125rem;margin-bottom:0;min-width:50px;border-radius:100%"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAbJ9ws3Oazwg1sH/xAAbEAACAwEBAQAAAAAAAAAAAAAAAQISEwMEEf/aAAgBAQABBQLA7xy54/Vuj1dbx3iWZZssz//EABcRAAMBAAAAAAAAAAAAAAAAAAACERD/2gAIAQMBAT8BikXf/8QAGBEAAgMAAAAAAAAAAAAAAAAAABEBAhD/2gAIAQIBAT8Bcjtv/8QAHBAAAQMFAAAAAAAAAAAAAAAAAAIQMQEREkFR/9oACAEBAAY/AjIubEpp1paT/8QAHRABAQACAgMBAAAAAAAAAAAAAQARMSFBUXGRof/aAAgBAQABPyHPxZdnYQgBwmbD1+otQ5N7PsHpTsMqz//aAAwDAQACAAMAAAAQq8BB/8QAGBEBAQADAAAAAAAAAAAAAAAAAAERQWH/2gAIAQMBAT8Ququ6sR//xAAZEQACAwEAAAAAAAAAAAAAAAAAARARQWH/2gAIAQIBAT8QWqOEWf/EABwQAQACAgMBAAAAAAAAAAAAAAEAESExQWFx0f/aAAgBAQABPxCyK7WgDzb8uMhpCzhzDbH0MvZ5FdB37KcCAxvFzS7YdaLd5WWxyej5P//Z" alt="@kidozh" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/static/5d23affc26abc40ba58c3481016a0747/99438/profile-pic.jpg 1x,
+/static/5d23affc26abc40ba58c3481016a0747/aba1d/profile-pic.jpg 1.5x,
+/static/5d23affc26abc40ba58c3481016a0747/b315d/profile-pic.jpg 2x" /><img loading="lazy" width="50" height="50" srcset="/static/5d23affc26abc40ba58c3481016a0747/99438/profile-pic.jpg 1x,
+/static/5d23affc26abc40ba58c3481016a0747/aba1d/profile-pic.jpg 1.5x,
+/static/5d23affc26abc40ba58c3481016a0747/b315d/profile-pic.jpg 2x" src="/static/5d23affc26abc40ba58c3481016a0747/99438/profile-pic.jpg" alt="@kidozh" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <a href="https://twitter.com/kido_zhang"><strong>@kidozh</strong></a> <!-- -->PhD candidate in Mechanical Engineering in The University of Manchester<!-- --> </p></div></footer></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/drill-process-fem-model/">← <!-- -->Finite element modeling of drilling process</a></li><li></li></ul></nav></main><footer class="my-12 text-center">© <!-- -->2021<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a> and<!-- --> <a href="https://github.com/renyuanz/leonids" target="_blank" rel="noreferrer">Leonids theme</a>.</footer></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-62251910-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/tool-wear-mechanism-in-drilling-process/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-c38cd845a4181427323c.js"],"app":["/app-9ed6688ffee8a5b14823.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"],"component---src-pages-404-js":["/component---src-pages-404-js-5fc510504e8f4eb4ecb7.js"],"component---src-templates-blog-list-tsx":["/component---src-templates-blog-list-tsx-09a41c4076dc4ab686c2.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-9b5e2db60e7a6aa7442a.js"]};/*]]>*/</script><script src="/polyfill-c38cd845a4181427323c.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-9b5e2db60e7a6aa7442a.js" async=""></script><script src="/547d6747ad54289c4cf011054cc421f3a7a5d337-8db5b9d9b90c2500486c.js" async=""></script><script src="/styles-407fe62976dc5310c43e.js" async=""></script><script src="/app-9ed6688ffee8a5b14823.js" async=""></script><script src="/framework-8e528b732ab2eaadb7b7.js" async=""></script><script src="/webpack-runtime-80aa1a6b250978343cd5.js" async=""></script></body></html>
