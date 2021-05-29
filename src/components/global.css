@@ -5,7 +5,7 @@ body {
   --lightBg: #f5f5f5;
   --textNormal: #181818;
   --textTitle: #181818;
-  --textLink: #fd5e53;
+  --textLink: rgb(3, 102, 214);
   --hr: hsla(0, 20%, 1%, 0.2);
 
   background-color: var(--bg);
@@ -105,4 +105,16 @@ button {
     margin-left: 380px;
     top: 0;
   }
+}
+
+figcaption{
+  text-align: center;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+figcaption::before{
+  content: "Figure. ";
+  color: var(--textLink);
+  margin-right: 0.5rem;
 }

@@ -124,6 +124,16 @@ Point of angle determines chip formation.
 
 Useful papers
 
++ Optimization of varying-parameter drilling for multi-hole parts using metaheuristic algorithm coupled with self-adaptive penalty method[^3]
+
+The paper using Radial Basis Function(RBF)-network to model the impact factor from cutting forces, vibration to hole's surface roughness. Then Gray analysis is used to do reverse engineering. A self-adaptive penalty method based on metaheuristic algorithm is used to find the optimal parameters for drilling process.
+
+![Architecture of RBF Network](./images/architecture-of-rbf-network.png)
+
+The fig below show drill wear at different cutting parameters.
+
+![drill wear at different cutting parameters](./images/drill-wear-at-different-cutting-parameters.png)
+
 ## Product quality prediction and optimization
 
 Useful papers
@@ -140,3 +150,4 @@ Some [link](http://renyuanz.github.io) can also be shown.
 
 [^1]: Pardo, A., Majeed, M., & Heinemann, R. (2020). Process signals characterisation to enable adaptive drilling of aerospace stacks. Procedia CIRP, 88, 479-484.
 [^2]: Adesta, E. Y. T., Hamidon, R., Riza, M., Alrashidi, R. F. F. A., & Alazemi, A. F. F. S. (2018). Investigation of tool engagement and cutting performance in machining a pocket. In IOP Conference Series: Materials Science and Engineering (Vol. 290, No. 1, p. 012066). IOP Publishing.
+[^3]: Han, C., Luo, M., & Zhang, D. (2020). Optimization of varying-parameter drilling for multi-hole parts using metaheuristic algorithm coupled with self-adaptive penalty method. Applied Soft Computing, 95, 106489.

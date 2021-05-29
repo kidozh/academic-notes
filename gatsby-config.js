@@ -35,7 +35,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 650,
+              showCaptions: true,
             },
           },
           {
@@ -44,6 +45,18 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: "Table of Contents",
+              tight: false,
+              ordered: false,
+              fromHeading: 1,
+              toHeading: 6,
+              className: "table-of-contents"
+            },
+          },
+          `gatsby-remark-autolink-headers`,
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
@@ -64,7 +77,15 @@ module.exports = {
               referenceTextPrefix: "",
               referenceTextSuffix: " "
             }
-          }
+          },
+          `gatsby-remark-mathjax`,
+          {
+            resolve: `gatsby-remark-figure-caption`,
+            options: {
+              figureClassName: 'md-figure'
+            },
+          },
+          
         ],
       },
     },
