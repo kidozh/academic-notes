@@ -6,6 +6,12 @@ categories: [overview]
 share: true
 ---
 
+# Table of Contents
+
+```toc
+# This code block gets replaced with the TOC
+```
+
 # Background
 
 To improve product quality and working efficiency, adaptive drilling is proposed. 

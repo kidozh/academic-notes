@@ -6,6 +6,12 @@ categories: [introduction]
 comments: true
 ---
 
+# Table of Contents
+
+```toc
+# This code block gets replaced with the TOC
+```
+
 # Typical approaches
 
 There are two main ways of approaching problems that involve the motion of deformable materials - the Lagrangian way and the Eulerian way. These approaches are distinguished by three important aspects: [^2]

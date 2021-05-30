@@ -6,6 +6,12 @@ categories: [introduction]
 comments: true
 ---
 
+# Table of Contents
+
+```toc
+# This code block gets replaced with the TOC
+```
+
 # Definition
 
 Drill twist is usually used to remove material to create holes. It's designed with a cone-like internal structure and narrow at the top of the web with gradually increasing thickness to the shank. [^1]

@@ -35,9 +35,9 @@ The table below shows the difference between metal and composite material
 | Type | Metal | Composite material |
 | :-------: | :------: | :-------: |
 | Primary wear type   |  Crater and flank wear   | Edge rounding |
-| Predominant wear mechanism | Erode, abrasion and sliding & rolling | Abrasion |
+| Predominant wear mechanism | Erode, abrasion and sliding & rolling | Abrasion[^17] |
 | Major machinability | Chip breakage | - |
-| Major influential parameters|  | feed rate(double point angle)[^15] |
+| Major influential parameters| larger point angle produce higher thrust force | feed rate(double point angle)[^15] |
 | Chip formation | Shear deformation |  Intermittent fractures and bouncing cutting force [^3] |
 | Stagnation zone | √ | × |
 | Failure modes | Flank wear, notch wear, crater wear, plastic deformation, built up edge, thermal crack, chipping and edge fracture | Fibre pullout, delamination, surface damage and burning being delamination |
@@ -183,11 +183,6 @@ Delamination is a mode of failure where a material fractures into layers. In lam
 
 ![Delamination of CFRP under compression load.](./images/Delamination-CFRP.jpg)
 
-## For metal
-
-
-
-## For composite material
 
 # Common tool wear symptoms
 
@@ -205,7 +200,47 @@ In failure analysis, workers will check condition at predetermined intervals and
 + Color of Chip
 + Chip Control
 
-# References
+# Drill wear in cutting CFRP
+
+Abrasion is the main wear mechanism and cutting mode are changing during each half drill turn due to the continuous variation of $x_2$ angle between the cutting and fibre directions. 
+
+When $ x_2 = -45 \degree $ **flank abrasion** is the main wear mechanism because the carbon fibre undergo bending and followed of a **breakage** abruptly. Then, they come back to their original position by rubbing against the tool flank.
+
+![Inappropriate cutting mechanisms in orthogonal machining of fibrous material when χ2 is equal to -45° or 135° according to Wang et al.](./images/flank-wear-in-cutting-cfrp.png)
+
+The mechanism leads also to **margin** abrasive wear with a margin width.
+
+![Abrasive wear visible on the margin](./images/abrasive-wear-visible-on-the-margin.png)
+
+# Hole surface topography
+
+Back edge the margin wear imply a degradation of the hole surface integrity. Surface topography is quantify with the percentage of uncut fibres surface compared to the total hole area. The ratio is more relevant for such inhomogeneous materials than the surface roughness. 
+
+There are 3 zones showing the evolution of the ratio.
+
+![Percentage of surface with uncut fibers](./images/mechanism-for-friction-and-tool-wear.png)
+
++ The honing stage: The cutting edge is sharp to cut the fibre properly to get a uniform surface topography
++ Increase uncut fibre area with wear: The ratio continuously with the back edge wear
++ Stable cut fibre area: Edge rounding can't be superior to the uncut chip thickness and the uncut area will get stable.
+
+![Evolution of the surface topography of the hole](./images/evolution-of-the-surface-topography-of-the-hole.png)
+
+
+Uncut fibers areas localized between -10° to -45° and symmetrically at 135° to 170°. The angular range $$\delta \theta_{max}$$ is equal to 35°  and fibres shearing are included in this angle range.
+
+![Localization of the defect in a hole drilled in a unidirectional CFRP plate with fully automated roundness/cylindricity device.](./images/uncut-fibers-area-angle.png)
+
+In conclusion, wear has a direct impact on the final surface topography of the hole. The measure of the uncut fiber area ratio can be a valuable criterion to define the surface roughness of the hole.
+
+## Damage assessment
+
+Main problem arises at the **exit** of the hole, experiencing severe delamination and flaking. The delamination is not axisymmetric, instead, it is produced in preference directions which are linked to fibre directions of the exit layer.
+
+![Comparison of the exit surface between holes made by a new and a worn tool.](./images/hole-comparison-between-new-and-worn-tool.png)
+
+The delamination at the exit of the hole starts appearing when the wear deforms the geometry of tool edges towards **negative** rake angle. Wear stabilizes and delamination increases progressively.
+
 
 [^1]: Arul, S. V. L. M. S., Vijayaraghavan, L., Malhotra, S. K., & Krishnamurthy, R. (2006). The effect of vibratory drilling on hole quality in polymeric composites. International Journal of Machine Tools and Manufacture, 46(3-4), 252-259.
 [^2]: Sheikh-Ahmad, J. Y. (2009). Machining of polymer composites (Vol. 387355391). New York: Springer.
@@ -223,3 +258,4 @@ In failure analysis, workers will check condition at predetermined intervals and
 [^14]: Schmidt J. Mechanical and thermal effects in turn hardened steels. Dissertation of University Hannover; 1999.
 [^15]: Karpat, Y., Değer, B., & Bahtiyar, O. (2012). Drilling thick fabric woven CFRP laminates with double point angle drills. Journal of materials processing technology, 212(10), 2117-2127.
 [^16]: https://xapps.xyleminc.com/Crest.Grindex/help/grindex/contents/wear01.htm
+[^17]: Mondelin, A., Furet, B., & Rech, J. (2010). Characterisation of friction properties between a laminated carbon fibres reinforced polymer and a monocrystalline diamond under dry or lubricated conditions. Tribology international, 43(9), 1665-1673.
