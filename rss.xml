@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jiduo's References]]></title><description><![CDATA[Jiduo's literature review]]></description><link>https://academic.kidozh.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 May 2021 00:10:58 GMT</lastBuildDate><item><title><![CDATA[Tool wear mechanism in drilling process]]></title><description><![CDATA[Table of Contents Introduction Cutting mechanism difference in metal and composite material Cutting edge geometry Stagnation zone Wear type…]]></description><link>https://academic.kidozh.com/tool-wear-mechanism-in-drilling-process/</link><guid isPermaLink="false">https://academic.kidozh.com/tool-wear-mechanism-in-drilling-process/</guid><pubDate>Sat, 29 May 2021 15:20:03 GMT</pubDate><content:encoded>&lt;h1 id=&quot;table-of-contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#table-of-contents&quot; aria-label=&quot;table of contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Table of Contents&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jiduo's References]]></title><description><![CDATA[Jiduo's literature review]]></description><link>https://academic.kidozh.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 May 2021 21:37:40 GMT</lastBuildDate><item><title><![CDATA[Tool wear mechanism in drilling process]]></title><description><![CDATA[Table of Contents Introduction Cutting mechanism difference in metal and composite material Cutting edge geometry Stagnation zone Wear type…]]></description><link>https://academic.kidozh.com/tool-wear-mechanism-in-drilling-process/</link><guid isPermaLink="false">https://academic.kidozh.com/tool-wear-mechanism-in-drilling-process/</guid><pubDate>Sat, 29 May 2021 15:20:03 GMT</pubDate><content:encoded>&lt;h1 id=&quot;table-of-contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#table-of-contents&quot; aria-label=&quot;table of contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Table of Contents&lt;/h1&gt;
 &lt;div class=&quot;table-of-contents&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
@@ -34,12 +34,16 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#for-metal&quot;&gt;For metal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#for-composite-material&quot;&gt;For composite material&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#common-tool-wear-symptoms&quot;&gt;Common tool wear symptoms&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#references&quot;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#drill-wear-in-cutting-cfrp&quot;&gt;Drill wear in cutting CFRP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#hole-surface-topography&quot;&gt;Hole surface topography&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#damage-assessment&quot;&gt;Damage assessment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h1 id=&quot;introduction&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#introduction&quot; aria-label=&quot;introduction permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
@@ -101,7 +105,7 @@
 &lt;tr&gt;
 &lt;td align=&quot;center&quot;&gt;Predominant wear mechanism&lt;/td&gt;
 &lt;td align=&quot;center&quot;&gt;Erode, abrasion and sliding &amp;#x26; rolling&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;Abrasion&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Abrasion&lt;sup id=&quot;fnref-17&quot;&gt;&lt;a href=&quot;#fn-17&quot; class=&quot;footnote-ref&quot;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&quot;center&quot;&gt;Major machinability&lt;/td&gt;
@@ -110,7 +114,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&quot;center&quot;&gt;Major influential parameters&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;larger point angle produce higher thrust force&lt;/td&gt;
 &lt;td align=&quot;center&quot;&gt;feed rate(double point angle)&lt;sup id=&quot;fnref-15&quot;&gt;&lt;a href=&quot;#fn-15&quot; class=&quot;footnote-ref&quot;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -184,7 +188,7 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 88.95705521472392%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABV0lEQVQ4y6WUa0sCQRSGx40uoJVRJLlRkIluLt2IwgoiKiKkUqGyopA+9KGoH9C3/nnvWd6J07LtRV94GD07M+cyZ8aYeC2ClhlSRTBJ+mCedkfNySkSNQtK4ApUh43OejwHr2AcrAMPVOjIpSOxLXFOpGxKMvEBTIAxbrQLmtxoEzTAPtgC+bjIpH4voDBgZn8knj7pXUecy1q3Mscz8B46Tasp4INl1s2Oa/zt6sk7YBTcsOjmnw23wR6osc5N1lBsdTAC5uwCnxGmlSyeDtku6TTQBVhNqFm4mctsGcnqnqcvnRGE+cabkUa6xregxzr+Sv58gYWMm0lWHQbi6MzE8JSiZob9Kak9gwP1/Uh1S6BTXjG72ImISOxt8K161WrG1s/wo/TRXchLQTW8tMYjO6GUVBeP4wrogmtG/MHTk3t9zFcos/Lc+JAvzoZK+4QPbux1/AF3XhixCB6weAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 88.95705521472392%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAADdbAAA3WwGZgwLGAAABTElEQVQ4y6WUSUvDQBiGU61139sKgora1p3algouBxWkiB5EcQG9iBfxIqJnf7vPB2/CMCapsS88TGYy+bb5JkGQrmW4CHrUDBRhAp41N/VpzHl01TiU4QZWe40ujKIDrzAKLdiDfZWgqrmxq0xSjW3DvbNWVqQ7MC+jRgXW5PSXwlrMwQuMZMwstpZj8KEI/UPIZHhdk2PVbTBm4yQ05WwTakq5obWq69iKW4BrKCVEZU6WYEv1NOqw4oxWpsXwA4vyPGOKRc/hlYKL2qT2B4NuM1vDT8ECPKoU+fDFl1LK0qumJ3hQa0UyL5/+YoLyGgdU846eh0W0ybwMpRjq12hNfKI73nTeN3Rgkdpw2qVR7Y7fwjdsePsKijQyVtIp1WNOcRbOlEXbTS1JFRV6Gi7hTmm9w5vmLV3L3H/+OHYrjuDA67VDpxMSDf8Aek8YozFAxbAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -632,8 +636,6 @@
     &lt;/span&gt;
     &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Delamination of CFRP under compression load.&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
-&lt;h2 id=&quot;for-metal&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#for-metal&quot; aria-label=&quot;for metal permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;For metal&lt;/h2&gt;
-&lt;h2 id=&quot;for-composite-material&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#for-composite-material&quot; aria-label=&quot;for composite material permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;For composite material&lt;/h2&gt;
 &lt;h1 id=&quot;common-tool-wear-symptoms&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#common-tool-wear-symptoms&quot; aria-label=&quot;common tool wear symptoms permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Common tool wear symptoms&lt;/h1&gt;
 &lt;p&gt;In failure analysis, workers will check condition at predetermined intervals and compare condition of insert with typical failure modes. Once the other failure modes have been corrected, measuring &lt;strong&gt;flank wear&lt;/strong&gt; can then be the determinant of tool life.&lt;/p&gt;
 &lt;ul&gt;
@@ -649,7 +651,222 @@
 &lt;li&gt;Color of Chip&lt;/li&gt;
 &lt;li&gt;Chip Control&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;references&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#references&quot; aria-label=&quot;references permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;References&lt;/h1&gt;
+&lt;h1 id=&quot;drill-wear-in-cutting-cfrp&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#drill-wear-in-cutting-cfrp&quot; aria-label=&quot;drill wear in cutting cfrp permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Drill wear in cutting CFRP&lt;/h1&gt;
+&lt;p&gt;Abrasion is the main wear mechanism and cutting mode are changing during each half drill turn due to the continuous variation of $x_2$ angle between the cutting and fibre directions. &lt;/p&gt;
+&lt;p&gt;When $ x_2 = -45 \degree $ &lt;strong&gt;flank abrasion&lt;/strong&gt; is the main wear mechanism because the carbon fibre undergo bending and followed of a &lt;strong&gt;breakage&lt;/strong&gt; abruptly. Then, they come back to their original position by rubbing against the tool flank.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 526px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a4d8bd0ab340f5a5f27d38fffecfa1ca/2d7ab/flank-wear-in-cutting-cfrp.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 85.88957055214723%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAACxElEQVQ4y4VUWVOaQRDcX+27Tz5aZXmXhUYUNYAoQQmCiuIJAp6ItwIKghfiHbUzPclH1IrJVg2z++1Oz2z3sAZvxuvr6zv/2eD+y8tLdf72vLE2rQ3rYKVSQSgUwv39vRrXDw8PKJfLeH5+1jNv4ywzn1URCARQU1ODxsZG+P1+NDQ0wGazobOzEy0tLVhcXPxrnHl8fMTJyQny+TwKhQLOzs5wenqKSCSCqakpBXO5XAgGg2qTk5Pw+XyYm5tDsVhUK5VKGnN3dwezv7+P1dVVHB4egvPl5WWkUilkMhldM8n5+Tmurq5wfHyMlZUVpeDi4kLBcrmcesZsb2/D8MPR0ZEC3t7ealWsllWvra1pxdYgUCwWQzKZhNfrfXft6+trHBwcwBBob29PA0k4N+hZEavgdWZnZ/VKrDSRSMDj8WBpaQklqezHbxG5p4DpdFp5WV9fx/z8PKLRqKrL7FyTy6GhIa2MdDDw8vLyjwpPT+qKUpBemYAMIjp52NjY0KsSgJXzGwUgd+Pj41WcglSfF6oyIlBW1E+MjCC1uwuzKz+shp7cbG1tqUisOJvNKqdsIbfbjS5pGefwMKLd3Ui3tyNSX4/KwgJy8i0tCTOihyEA+WAlnBOIPFEoWjwe13ZxOBxw9Pait68P/R0d8NfWok9AhyWRrasLTa2tiAuO2dnZ0evRW2AEJh+bm5vVdgiHw3A5nejp74e9rg5fpOG7Bby5uRlfBwbQY7cjRkDyREBySZ4IQgAaE3BNKsbGxhAWtb1tbQhKcEgSeAYHVdCwmFOSkSrDQIrCBQEJQiMIjar7R0cREOXdAuZrakJQAJjAslHZZyfwvGEDM8vMzIwC01vz6elpPUxRvstf8JuoOTEx8QtIvllgVJ+etBn8ZxDALldkM5N8dsO/xrvn6+MzRn9zc1N9AHibsvyDrKfro/H8T+WRswzcHguqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Inappropriate cutting mechanisms in orthogonal machining of fibrous material when χ2 is equal to -45° or 135° according to Wang et al.&quot;
+        title=&quot;Inappropriate cutting mechanisms in orthogonal machining of fibrous material when χ2 is equal to -45° or 135° according to Wang et al.&quot;
+        src=&quot;/static/a4d8bd0ab340f5a5f27d38fffecfa1ca/2d7ab/flank-wear-in-cutting-cfrp.png&quot;
+        srcset=&quot;/static/a4d8bd0ab340f5a5f27d38fffecfa1ca/222b7/flank-wear-in-cutting-cfrp.png 163w,
+/static/a4d8bd0ab340f5a5f27d38fffecfa1ca/ff46a/flank-wear-in-cutting-cfrp.png 325w,
+/static/a4d8bd0ab340f5a5f27d38fffecfa1ca/2d7ab/flank-wear-in-cutting-cfrp.png 526w&quot;
+        sizes=&quot;(max-width: 526px) 100vw, 526px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Inappropriate cutting mechanisms in orthogonal machining of fibrous material when χ2 is equal to -45° or 135° according to Wang et al.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;The mechanism leads also to &lt;strong&gt;margin&lt;/strong&gt; abrasive wear with a margin width.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2913def354737578065604273e964a70/71c8e/abrasive-wear-visible-on-the-margin.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.987730061349694%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC20lEQVQozz2S21NaZxTFj3i4iAGj0dAEUS5COMjFAdQES8QQvCESUdFogCBHLopETUyTtglxWu1DmnbS9qEPmT60r/0ff/mCM3lYs+dbs/aavff6pGK5QLWxz95+mUqtgirwpdYOqqh1lVKlxPFZS/AqjWa9wx+0GtSbNcpqmdZpk/pRlXKtJLQFJOvobdzKGEpA6dRR5wimfjNOjwO7207fNybCsSB21yhKUCEYCeALKbiEdthhJTQZwB9W0JlkJI2EJHVJdBs0GEx6+i192L3DLG7O8fbjc3759Ja5zD0stkEhlDoNXTqN0Hcj98gdvaFPi96s7fT3mA1IybUYpaN1iodrbKlpfvy1yYf/Lmn8UOfojUo47mPIOoBskHH67GR356mcbPH9+2PcQReyUcO1fiO6Xm0H0otLlZcXVUrNdSrPcpz/eUJqa4XpVIx7qTDjU27GJ93MpmNkniyR2V3kYTZBMjNHJDbBnXG3mFpMru9CaxRrP/+pzOGrXYoHj3h9scfxz4cs72aZ30gQuutBiboITnvFGZKCS+K/G8DmsaNMeFFCHrx+D2NeFyMuW2dt6aRdQD3Jc/BdnvM/npHb32blSZr5bJzp2RCReBBfxM38eoIHq/dx+J3orxswCphvmLhpHeLWyC2Gbg9eGdbO8lRPt/n4T5vzv9os76xRbDzmcWmNl29O2W/ukdtZpSC4mYVvsSkOAlGRtEhcI9aUe7rRiFBlsa7BpEN62lqn+XqH3/9t8/RFldVihgcr08RTUbLbi0wlIsykpljZWcIb9TEgEh8Q6V4FIaO/phPGVz/gy1sqt3K0Pxxx+emCdGGThDj+5P0A4Rk/6Y0lyvU9lvOLxBZiWN2jmG9eR9urF5PphIFBmIn0PWPkNjdwiNtKh6+2+fv/3zh7/46FfIZofEIgzORslMTyHA8zCySzSaLibbHbMN3oF0a9XyEbjfQNDuJ0e7AMW/gMW0RzHDEFfL0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Abrasive wear visible on the margin&quot;
+        title=&quot;Abrasive wear visible on the margin&quot;
+        src=&quot;/static/2913def354737578065604273e964a70/a6d36/abrasive-wear-visible-on-the-margin.png&quot;
+        srcset=&quot;/static/2913def354737578065604273e964a70/222b7/abrasive-wear-visible-on-the-margin.png 163w,
+/static/2913def354737578065604273e964a70/ff46a/abrasive-wear-visible-on-the-margin.png 325w,
+/static/2913def354737578065604273e964a70/a6d36/abrasive-wear-visible-on-the-margin.png 650w,
+/static/2913def354737578065604273e964a70/71c8e/abrasive-wear-visible-on-the-margin.png 875w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Abrasive wear visible on the margin&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&quot;hole-surface-topography&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hole-surface-topography&quot; aria-label=&quot;hole surface topography permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hole surface topography&lt;/h1&gt;
+&lt;p&gt;Back edge the margin wear imply a degradation of the hole surface integrity. Surface topography is quantify with the percentage of uncut fibres surface compared to the total hole area. The ratio is more relevant for such inhomogeneous materials than the surface roughness. &lt;/p&gt;
+&lt;p&gt;There are 3 zones showing the evolution of the ratio.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2ab78063ba1ad8067b84536af385e0c6/46cee/mechanism-for-friction-and-tool-wear.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAACL0lEQVQ4y42U7U/aUBjF+49v2ddlyZYli1+Mix/mAtsiY0MYKKDQFkoLLbSIE6ykCCo6aiG40hfObgsqVEh2k5Pee/v01+ecvlAIjOl06mtx7TjO0n6wZnFQ62CtZhMnx8f+vFqtQhKleY27BP5voFyt4dXLF8hm0ri5uYVU4WHol8+gK4FBKw/ruiJj++MW+v0/uNDqENjPGBlX8xp3pX0qCAkWeVCW5aCpHDLx16AzG7At87HTZx0uAh3Hhe3M7LjurLijacik0ygXQsjvvwed/gC5EoFx18Mqd0sZmhMXzbaO07mU5gAcX8OPaAS5gw0fxpAOs7/eEPs7C47cJ6Bt2xBFEXyphLIgQOB5IgFiRYQkifi5l8GnnW3QB+9wlPL0dtYpAZ8oh7Bta9myZVloNBpQFAVKXUG9XicgCbncEfJEsVgc36NfkTv8hrNTFlpbxvWlijv9ChedMyINqqr66nW7sw7NyYRk58Aic4dk95esu70ezs/b6HQ66N8O8Fvto3c9JDUO7k0L43sTE8vxr/NgEnE5Ho9BeeFns1lsbW4isruLcCiEL+EwOI6DLMuoVSXQLI/IHoNILI9oggHDlkgkZZTLAngSkWEYT5Ztx0ahUEAinsB+KoW9WAzJZBI0TaNI9kskW+88yxZRLBaRp1l/zZF5gWX9eEzTfHzS1Lo3vtVqgWEYVCoV/4F5gNFohHXjgUOt+kK8Ow4GAwyHQ+i67h89eXkH64M/jX8DGg5K+iW/TAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Percentage of surface with uncut fibers&quot;
+        title=&quot;Percentage of surface with uncut fibers&quot;
+        src=&quot;/static/2ab78063ba1ad8067b84536af385e0c6/a6d36/mechanism-for-friction-and-tool-wear.png&quot;
+        srcset=&quot;/static/2ab78063ba1ad8067b84536af385e0c6/222b7/mechanism-for-friction-and-tool-wear.png 163w,
+/static/2ab78063ba1ad8067b84536af385e0c6/ff46a/mechanism-for-friction-and-tool-wear.png 325w,
+/static/2ab78063ba1ad8067b84536af385e0c6/a6d36/mechanism-for-friction-and-tool-wear.png 650w,
+/static/2ab78063ba1ad8067b84536af385e0c6/e548f/mechanism-for-friction-and-tool-wear.png 975w,
+/static/2ab78063ba1ad8067b84536af385e0c6/3c492/mechanism-for-friction-and-tool-wear.png 1300w,
+/static/2ab78063ba1ad8067b84536af385e0c6/46cee/mechanism-for-friction-and-tool-wear.png 1687w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Percentage of surface with uncut fibers&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The honing stage: The cutting edge is sharp to cut the fibre properly to get a uniform surface topography&lt;/li&gt;
+&lt;li&gt;Increase uncut fibre area with wear: The ratio continuously with the back edge wear&lt;/li&gt;
+&lt;li&gt;Stable cut fibre area: Edge rounding can’t be superior to the uncut chip thickness and the uncut area will get stable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cd8c63b78514d5ec18fbcb1bded546cd/94829/evolution-of-the-surface-topography-of-the-hole.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.74233128834356%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/0lEQVQozyWRW0iTcRjGv/siu5BAunCKFbrZSiyttrKtGrb5meKY5CHdISTNA7VALEIxDFcNK7ALSwcDXRcDL8wxwSuHyDYoVAQRVMQj6qXzc8Kvf/nCc/M8PAd4Jba3YWkJVlZgbQ3m5mBnh/+3tXWC5WVYX4fVVUgmYXMTFhZOtMXFE+1fhvBJif19jnZ3UaanSczOoghS2dsjeXSEEotxGI2SmJxEEUXKzAyKGJBMJFBE0OHUFEo8zvHvPyQ3Njg+OEAyPjDxtrOThvp67hUZeN72gs7udwz+GORuwQ0aXS5aGp5RbpGpEOj76KWn18NDswVHdS22snJkUzHFZhnPJy/SFe1V7HYn5hKZ3Mtaqh5X4375is9fvqLKzOJJvZ06h5P86wXc0t+m530vbrebvLw8yqxW9HeKuJidTXp6Jk1NzUiFhTdxOl1YLCVoRXhdnZ329g76+7+Rk6MRZXZqamrJz7+GwWDE4/lAx+s36HQ6bJU2DEYjarWarAuXaGltQ1KpMrDZKtHr9KSlnUeWH9HY2IzX20dq6jlKS0upqLCiyshAo8mlq6ubVmHMFqvum0yoBZeScpZTp8/gcDxF8vv9TEyEGR0dxefzMT4eIhaLMyseNDTkIxQKEQ6HGR4eJhgMMj+/QCQSIRAYYWzsFyOBnwwMfBf6CNFonL+brXDegmS22wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Evolution of the surface topography of the hole&quot;
+        title=&quot;Evolution of the surface topography of the hole&quot;
+        src=&quot;/static/cd8c63b78514d5ec18fbcb1bded546cd/a6d36/evolution-of-the-surface-topography-of-the-hole.png&quot;
+        srcset=&quot;/static/cd8c63b78514d5ec18fbcb1bded546cd/222b7/evolution-of-the-surface-topography-of-the-hole.png 163w,
+/static/cd8c63b78514d5ec18fbcb1bded546cd/ff46a/evolution-of-the-surface-topography-of-the-hole.png 325w,
+/static/cd8c63b78514d5ec18fbcb1bded546cd/a6d36/evolution-of-the-surface-topography-of-the-hole.png 650w,
+/static/cd8c63b78514d5ec18fbcb1bded546cd/94829/evolution-of-the-surface-topography-of-the-hole.png 878w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Evolution of the surface topography of the hole&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Uncut fibers areas localized between -10° to -45° and symmetrically at 135° to 170°. The angular range $$\delta \theta_{max}$$ is equal to 35°  and fibres shearing are included in this angle range.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0cf6a51177bdaba8d688809d9ad2abf3/ef916/uncut-fibers-area-angle.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 96.93251533742333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAADi0lEQVQ4y3VUaW/jNhT0//85/bJYdJE2WaBBN0mdxI6PWLJlWdZh3aKok9J0JCVps2gJUKQkcsj3Zt7M0PcYWv82/tzatoPrukjSDIrzsSkFdArvO/quG+cDxmx4vIM1XFiWJUEUpBQQ4sLRRRDoiKLDOBd5iDzw0Z1t4OEBfZZ9Ap2NL8NDSsQ7Da+ahjR10NQ22oabeo+HmCjkkYsuUPwmCwu5jFDre+D6Gr3vf0Q5Q56j3/NHUaCII8TulgcEqFsHqdQRylfY4QJOtEQkd8iKA0N32G0kJdcZPOjqCn3bjqCz/nIBCFirDulFB16+o5h/gx88Ia6PqDsCFway6oRK2YjKPTy5RVlZ6AbQIkR7ssCcTCH39/dMXosssKEW15D5Aa55i/buVyhvAxWfkFs6pL6CSkyoUIOMd/DEGlVtoVXMa+ABcfKWQ4bcMqHi9R59osPJN4gbE529Qnv1DTBPkE/PKP+4HefNdgF1foGoTfhiQzJcZII57yZiZ3J/gHc+Qhlz1KdHbARH+GhtAxiYZCuYn3KQyhuBjUrR1mcEYouCwHXlkrhiAvRsB9r6ibtMiLsvCJ6+otn8iW65RF9VIOUogoA5qz4A265BS+Ki+gBRGmTeQZJEE8tBGMFxjxDSgHl5RKbfsc8hohgiDJifgO860qF7HhKSmFxc5nQOZ/cdXrShNg3YLknq+kmHOcU6hJCSwbO/wkb7C7bj4GiaY5cUexmGGCVWlLz9E7znrwjmX1A//wYlDBx3DJ9ank2azghoQ1Q8KVwijTVWSUDGi3FRQaAxR22D3jCZXw1eQwJrjRp+QO2sYa9eUDE9I2BV1ciFNQrWz7eoG16/D6Ew1W7OUizqZqptbYWG5FlyjUulo7cXyE5kWxajFmfvdZymPmveQUEBO2IFGVKD+gPUfknZ3E86tDbodj+Q3v4Cz+G/gjJa3EDETIdto9d2/wA2FHeaWqOuJEEv/iPSzQ2a/R3Eyw3y/Q80xgMC4xaBN0c7/x1qeYM0PEPlElgu/mUOb6AVpZGwGnretGEFJK2JoCFRTMM5W8NniNkgeppES9PIfJYmVYI4Rn8+D0AD4Gc/rOua3vfmNmQevHFJpykoq8F5RrfJT6My1pst2sELKPxPfvgz6OSHOUvK5+jB9+k6oTHOB/Zzsj5oLqMXqneD7iYCP0Lu/8e5FV3IslhmDE2p/3b1jz0c/waHJaeztJPYRQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Localization of the defect in a hole drilled in a unidirectional CFRP plate with fully automated roundness/cylindricity device.&quot;
+        title=&quot;Localization of the defect in a hole drilled in a unidirectional CFRP plate with fully automated roundness/cylindricity device.&quot;
+        src=&quot;/static/0cf6a51177bdaba8d688809d9ad2abf3/a6d36/uncut-fibers-area-angle.png&quot;
+        srcset=&quot;/static/0cf6a51177bdaba8d688809d9ad2abf3/222b7/uncut-fibers-area-angle.png 163w,
+/static/0cf6a51177bdaba8d688809d9ad2abf3/ff46a/uncut-fibers-area-angle.png 325w,
+/static/0cf6a51177bdaba8d688809d9ad2abf3/a6d36/uncut-fibers-area-angle.png 650w,
+/static/0cf6a51177bdaba8d688809d9ad2abf3/ef916/uncut-fibers-area-angle.png 815w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Localization of the defect in a hole drilled in a unidirectional CFRP plate with fully automated roundness/cylindricity device.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;In conclusion, wear has a direct impact on the final surface topography of the hole. The measure of the uncut fiber area ratio can be a valuable criterion to define the surface roughness of the hole.&lt;/p&gt;
+&lt;h2 id=&quot;damage-assessment&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#damage-assessment&quot; aria-label=&quot;damage assessment permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Damage assessment&lt;/h2&gt;
+&lt;p&gt;Main problem arises at the &lt;strong&gt;exit&lt;/strong&gt; of the hole, experiencing severe delamination and flaking. The delamination is not axisymmetric, instead, it is produced in preference directions which are linked to fibre directions of the exit layer.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ba73d70a08c9c9074d8f6615435df986/b97f6/hole-comparison-between-new-and-worn-tool.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.39877300613497%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAACdklEQVQozx2S608SUBjG+Vva+lCrmaXZlk0N0wINUPCCCigwQETuoiCChghOLhNQvKDOW6685Lyk5WrWZvWl1frSf/Pr5Iezc7b33e887/M+kkI6TnTYxVjARXTEzbg40WEnIW8/AZcFm6GdrdUFTo7e4bToiIy4CHqtom7F7+jDZ+/FY9PjNHUQ9lqQpCbDBJxWxnwOTD1tND+X0tHSjKffKBoN6DRNrCzkOX9/hNNqIOS3Ex8PkEqMMRMfITnuJzLkwGnWMuoRwNnkBK+CXtpVcm7dvEH53ds8LC9D3ijFbevDpFWxuljg49kJngEjy8UZYhNBBqxmtO2tmA1tTEVdDA8aifr7kSxkEwQGLTwou8OTR5XUPa6isbaahppqujQKzN2tAjjH6dEBsfAQuUwMjVKO1WjAqNPSpnpJu1qBuvkpEaFeUiqkGLToqaqowCF+bZU9Q9EgRS6tRfGiHn2nipJQeHy4j7Fbg1opQylvxGkzE/S7yaWnMfXqaGmSkoj4kKzOZ5gIuqm8f49IKMRcOiHGVKP676WwwdyjoVTMc/HhBKWsDllDDXaLiXw2xdHBnrhn6epUs7lRZDE7KYBzaebTMfqNWurrakRDhu21JSLDHtxiCRadmjWh8Munc3wOkxjbjkN4a7fZGfJ66eoQsNdr7L1ZZ25mHMlyLklqIkA+Gb6Ogb5DyYjHTshjxWPVYWiTsVRI8/niTETFRjYZYToWJChiNiUSsrNdYmdziexkiNXCNJL97eXrx/JsgpKAFzNxMvFRJsM+5rNJLo8P+fv7J9+/fRV+xcWCcmyszLO3s87p4Vt2t0rsCoV/flzx6+qSf2RdsA0vw+KtAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Comparison of the exit surface between holes made by a new and a worn tool.&quot;
+        title=&quot;Comparison of the exit surface between holes made by a new and a worn tool.&quot;
+        src=&quot;/static/ba73d70a08c9c9074d8f6615435df986/a6d36/hole-comparison-between-new-and-worn-tool.png&quot;
+        srcset=&quot;/static/ba73d70a08c9c9074d8f6615435df986/222b7/hole-comparison-between-new-and-worn-tool.png 163w,
+/static/ba73d70a08c9c9074d8f6615435df986/ff46a/hole-comparison-between-new-and-worn-tool.png 325w,
+/static/ba73d70a08c9c9074d8f6615435df986/a6d36/hole-comparison-between-new-and-worn-tool.png 650w,
+/static/ba73d70a08c9c9074d8f6615435df986/b97f6/hole-comparison-between-new-and-worn-tool.png 958w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Comparison of the exit surface between holes made by a new and a worn tool.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;The delamination at the exit of the hole starts appearing when the wear deforms the geometry of tool edges towards &lt;strong&gt;negative&lt;/strong&gt; rake angle. Wear stabilizes and delamination increases progressively.&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -717,8 +934,25 @@
 &lt;p&gt;&lt;a href=&quot;https://xapps.xyleminc.com/Crest.Grindex/help/grindex/contents/wear01.htm&quot;&gt;https://xapps.xyleminc.com/Crest.Grindex/help/grindex/contents/wear01.htm&lt;/a&gt;&lt;/p&gt;
 &lt;a href=&quot;#fnref-16&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
 &lt;/li&gt;
+&lt;li id=&quot;fn-17&quot;&gt;
+&lt;p&gt;Mondelin, A., Furet, B., &amp;#x26; Rech, J. (2010). Characterisation of friction properties between a laminated carbon fibres reinforced polymer and a monocrystalline diamond under dry or lubricated conditions. Tribology international, 43(9), 1665-1673.&lt;/p&gt;
+&lt;a href=&quot;#fnref-17&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Finite element modeling of drilling process]]></title><description><![CDATA[Typical approaches There are two main ways of approaching problems that involve the motion of deformable materials - the Lagrangian way and…]]></description><link>https://academic.kidozh.com/drill-process-fem-model/</link><guid isPermaLink="false">https://academic.kidozh.com/drill-process-fem-model/</guid><pubDate>Mon, 24 May 2021 14:03:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;typical-approaches&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#typical-approaches&quot; aria-label=&quot;typical approaches permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Typical approaches&lt;/h1&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Finite element modeling of drilling process]]></title><description><![CDATA[Table of Contents Typical approaches Lagrangian approach Eulerian approach References Typical approaches There are two main ways of…]]></description><link>https://academic.kidozh.com/drill-process-fem-model/</link><guid isPermaLink="false">https://academic.kidozh.com/drill-process-fem-model/</guid><pubDate>Mon, 24 May 2021 14:03:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;table-of-contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#table-of-contents&quot; aria-label=&quot;table of contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Table of Contents&lt;/h1&gt;
+&lt;div class=&quot;table-of-contents&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#typical-approaches&quot;&gt;Typical approaches&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#lagrangian-approach&quot;&gt;Lagrangian approach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#eulerian-approach&quot;&gt;Eulerian approach&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#references&quot;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;typical-approaches&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#typical-approaches&quot; aria-label=&quot;typical approaches permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Typical approaches&lt;/h1&gt;
 &lt;p&gt;There are two main ways of approaching problems that involve the motion of deformable materials - the Lagrangian way and the Eulerian way. These approaches are distinguished by three important aspects: &lt;sup id=&quot;fnref-2&quot;&gt;&lt;a href=&quot;#fn-2&quot; class=&quot;footnote-ref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;The mesh description.&lt;/li&gt;
@@ -742,7 +976,29 @@
 &lt;a href=&quot;#fnref-2&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Drill twist introduction]]></title><description><![CDATA[Definition Drill twist is usually used to remove material to create holes. It’s designed with a cone-like internal structure and narrow at…]]></description><link>https://academic.kidozh.com/drill-twist-introduction/</link><guid isPermaLink="false">https://academic.kidozh.com/drill-twist-introduction/</guid><pubDate>Sat, 22 May 2021 21:11:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;definition&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#definition&quot; aria-label=&quot;definition permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Definition&lt;/h1&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Drill twist introduction]]></title><description><![CDATA[Table of Contents Definition Geometry characteristic Spiral (rate of twist) Point angle Lip angle Functional length Others Fenced Code…]]></description><link>https://academic.kidozh.com/drill-twist-introduction/</link><guid isPermaLink="false">https://academic.kidozh.com/drill-twist-introduction/</guid><pubDate>Sat, 22 May 2021 21:11:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;table-of-contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#table-of-contents&quot; aria-label=&quot;table of contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Table of Contents&lt;/h1&gt;
+&lt;div class=&quot;table-of-contents&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#definition&quot;&gt;Definition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#geometry-characteristic&quot;&gt;Geometry characteristic&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#spiral-rate-of-twist&quot;&gt;Spiral (rate of twist)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#point-angle&quot;&gt;Point angle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#lip-angle&quot;&gt;Lip angle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#functional-length&quot;&gt;Functional length&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#others&quot;&gt;Others&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#fenced-code-blocks&quot;&gt;Fenced Code Blocks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#references&quot;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;definition&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#definition&quot; aria-label=&quot;definition permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Definition&lt;/h1&gt;
 &lt;p&gt;Drill twist is usually used to remove material to create holes. It’s designed with a cone-like internal structure and narrow at the top of the web with gradually increasing thickness to the shank. &lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
@@ -894,7 +1150,53 @@
 &lt;a href=&quot;#fnref-:fig:footnote%20for%20group%20named%20fig&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Literature review about adaptive drilling]]></title><description><![CDATA[Background To improve product quality and working efficiency, adaptive drilling is proposed.  Definition Incorporated with process…]]></description><link>https://academic.kidozh.com/adaptive-drilling-literature-review/</link><guid isPermaLink="false">https://academic.kidozh.com/adaptive-drilling-literature-review/</guid><pubDate>Sat, 22 May 2021 11:12:03 GMT</pubDate><content:encoded>&lt;h1 id=&quot;background&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#background&quot; aria-label=&quot;background permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Background&lt;/h1&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Literature review about adaptive drilling]]></title><description><![CDATA[Table of Contents Background Definition Example Key points Perception methods Cutting material recognition Drill twist geometry Tool…]]></description><link>https://academic.kidozh.com/adaptive-drilling-literature-review/</link><guid isPermaLink="false">https://academic.kidozh.com/adaptive-drilling-literature-review/</guid><pubDate>Sat, 22 May 2021 11:12:03 GMT</pubDate><content:encoded>&lt;h1 id=&quot;table-of-contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#table-of-contents&quot; aria-label=&quot;table of contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Table of Contents&lt;/h1&gt;
+&lt;div class=&quot;table-of-contents&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#background&quot;&gt;Background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#definition&quot;&gt;Definition&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#example&quot;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#key-points&quot;&gt;Key points&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#perception-methods&quot;&gt;Perception methods&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#cutting-material-recognition&quot;&gt;Cutting material recognition&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#drill-twist-geometry&quot;&gt;Drill twist geometry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#tool-engagement&quot;&gt;Tool engagement&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#in-milling-processslotting&quot;&gt;In milling process(slotting)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;#material-transition&quot;&gt;Material transition&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#force&quot;&gt;Force&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#acceleration&quot;&gt;Acceleration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#acoustic-emission&quot;&gt;Acoustic emission&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#tool-disengagement&quot;&gt;Tool disengagement&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#relation-between-parameters-and-cutting-condition&quot;&gt;Relation between parameters and cutting condition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#product-quality-prediction-and-optimization&quot;&gt;Product quality prediction and optimization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#references&quot;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;background&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#background&quot; aria-label=&quot;background permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Background&lt;/h1&gt;
 &lt;p&gt;To improve product quality and working efficiency, adaptive drilling is proposed. &lt;/p&gt;
 &lt;h1 id=&quot;definition&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#definition&quot; aria-label=&quot;definition permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Definition&lt;/h1&gt;
 &lt;p&gt;Incorporated with process monitoring approaches, adaptive drilling system can automatically make adjustments, such as process parameters(eg. spindle speed, feed rate and coolant settings).&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -1184,34 +1486,7 @@
 &lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Testing "Readability" with a Bunch of Text]]></title><description><![CDATA[Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue…]]></description><link>https://academic.kidozh.com/readability-post/</link><guid isPermaLink="false">https://academic.kidozh.com/readability-post/</guid><pubDate>Mon, 27 Jul 2020 07:26:03 GMT</pubDate><content:encoded>&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cupidatat-90s-lo-fi-authentic-try-hard&quot; aria-label=&quot;cupidatat 90s lo fi authentic try hard permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Sartorial hoodie&lt;/li&gt;
-&lt;li&gt;Labore viral forage&lt;/li&gt;
-&lt;li&gt;Tote bag selvage&lt;/li&gt;
-&lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#forage-occaecat-cardigan-qui&quot; aria-label=&quot;forage occaecat cardigan qui permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Forage occaecat cardigan qui&lt;/h2&gt;
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
-&lt;h2 id=&quot;hoodie-duis&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hoodie-duis&quot; aria-label=&quot;hoodie duis permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hoodie Duis&lt;/h2&gt;
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
-&lt;h3 id=&quot;thundercats-ho&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#thundercats-ho&quot; aria-label=&quot;thundercats ho permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Thundercats Ho!&lt;/h3&gt;
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Sample Link Post]]></title><description><![CDATA[This theme supports link posts, made famous by John Gruber. To use, just add  to the post’s YAML front matter and you’re done. And this is…]]></description><link>https://academic.kidozh.com/sample-link-post/</link><guid isPermaLink="false">https://academic.kidozh.com/sample-link-post/</guid><pubDate>Mon, 27 Jul 2020 07:26:03 GMT</pubDate><content:encoded>&lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;language-text&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;And this is how a quote looks.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Some &lt;a href=&quot;http://renyuanz.github.io&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Post with Large Feature Image and Text]]></title><description><![CDATA[This is a sample post with a large feature image up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over…]]></description><link>https://academic.kidozh.com/readability-feature-post/</link><guid isPermaLink="false">https://academic.kidozh.com/readability-feature-post/</guid><pubDate>Mon, 27 Jul 2020 07:26:03 GMT</pubDate><content:encoded>&lt;p&gt;This is a sample post with a large feature image&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Post with Large Feature Image and Text]]></title><description><![CDATA[This is a sample post with a large feature image up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over…]]></description><link>https://academic.kidozh.com/readability-feature-post/</link><guid isPermaLink="false">https://academic.kidozh.com/readability-feature-post/</guid><pubDate>Mon, 27 Jul 2020 07:26:03 GMT</pubDate><content:encoded>&lt;p&gt;This is a sample post with a large feature image&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
 &lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
 &lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cupidatat-90s-lo-fi-authentic-try-hard&quot; aria-label=&quot;cupidatat 90s lo fi authentic try hard permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
 &lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
@@ -1243,7 +1518,34 @@
 &lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Sample Post]]></title><description><![CDATA[HTML Elements Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements…]]></description><link>https://academic.kidozh.com/sample-post-1/</link><guid isPermaLink="false">https://academic.kidozh.com/sample-post-1/</guid><pubDate>Mon, 27 Jul 2020 07:26:03 GMT</pubDate><content:encoded>&lt;h2 id=&quot;html-elements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#html-elements&quot; aria-label=&quot;html elements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML Elements&lt;/h2&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Testing "Readability" with a Bunch of Text]]></title><description><![CDATA[Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue…]]></description><link>https://academic.kidozh.com/readability-post/</link><guid isPermaLink="false">https://academic.kidozh.com/readability-post/</guid><pubDate>Mon, 27 Jul 2020 07:26:03 GMT</pubDate><content:encoded>&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
+&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cupidatat-90s-lo-fi-authentic-try-hard&quot; aria-label=&quot;cupidatat 90s lo fi authentic try hard permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
+&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sartorial hoodie&lt;/li&gt;
+&lt;li&gt;Labore viral forage&lt;/li&gt;
+&lt;li&gt;Tote bag selvage&lt;/li&gt;
+&lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
+&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
+&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#forage-occaecat-cardigan-qui&quot; aria-label=&quot;forage occaecat cardigan qui permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Forage occaecat cardigan qui&lt;/h2&gt;
+&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
+&lt;h2 id=&quot;hoodie-duis&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hoodie-duis&quot; aria-label=&quot;hoodie duis permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hoodie Duis&lt;/h2&gt;
+&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
+&lt;h3 id=&quot;thundercats-ho&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#thundercats-ho&quot; aria-label=&quot;thundercats ho permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Thundercats Ho!&lt;/h3&gt;
+&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
+&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
+&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Sample Link Post]]></title><description><![CDATA[This theme supports link posts, made famous by John Gruber. To use, just add  to the post’s YAML front matter and you’re done. And this is…]]></description><link>https://academic.kidozh.com/sample-link-post/</link><guid isPermaLink="false">https://academic.kidozh.com/sample-link-post/</guid><pubDate>Mon, 27 Jul 2020 07:26:03 GMT</pubDate><content:encoded>&lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;language-text&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And this is how a quote looks.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Some &lt;a href=&quot;http://renyuanz.github.io&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Sample Post]]></title><description><![CDATA[HTML Elements Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements…]]></description><link>https://academic.kidozh.com/sample-post/</link><guid isPermaLink="false">https://academic.kidozh.com/sample-post/</guid><pubDate>Mon, 27 Jul 2020 07:26:03 GMT</pubDate><content:encoded>&lt;h2 id=&quot;html-elements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#html-elements&quot; aria-label=&quot;html elements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML Elements&lt;/h2&gt;
 &lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
 &lt;h1 id=&quot;heading-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#heading-1&quot; aria-label=&quot;heading 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Heading 1&lt;/h1&gt;
 &lt;h2 id=&quot;heading-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#heading-2&quot; aria-label=&quot;heading 2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Heading 2&lt;/h2&gt;
@@ -1300,7 +1602,7 @@
 &lt;li&gt;Item one&lt;/li&gt;
 &lt;li&gt;Item two&lt;/li&gt;
 &lt;li&gt;Item three&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Sample Post]]></title><description><![CDATA[HTML Elements Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements…]]></description><link>https://academic.kidozh.com/sample-post/</link><guid isPermaLink="false">https://academic.kidozh.com/sample-post/</guid><pubDate>Mon, 27 Jul 2020 07:26:03 GMT</pubDate><content:encoded>&lt;h2 id=&quot;html-elements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#html-elements&quot; aria-label=&quot;html elements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML Elements&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Sample Post]]></title><description><![CDATA[HTML Elements Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements…]]></description><link>https://academic.kidozh.com/sample-post-1/</link><guid isPermaLink="false">https://academic.kidozh.com/sample-post-1/</guid><pubDate>Mon, 27 Jul 2020 07:26:03 GMT</pubDate><content:encoded>&lt;h2 id=&quot;html-elements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#html-elements&quot; aria-label=&quot;html elements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML Elements&lt;/h2&gt;
 &lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
 &lt;h1 id=&quot;heading-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#heading-1&quot; aria-label=&quot;heading 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Heading 1&lt;/h1&gt;
 &lt;h2 id=&quot;heading-2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#heading-2&quot; aria-label=&quot;heading 2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Heading 2&lt;/h2&gt;
