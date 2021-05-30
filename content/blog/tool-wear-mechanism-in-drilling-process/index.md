@@ -34,20 +34,76 @@ The table below shows the difference between metal and composite material
 
 | Type | Metal | Composite material |
 | :-------: | :------: | :-------: |
-| Wear type   |  Crater and flank wear   | Edge rounding |
+| Primary wear type   |  Crater and flank wear   | Edge rounding |
+| Predominant wear mechanism | Erode, abrasion and sliding & rolling | Abrasion |
+| Major machinability | Chip breakage | - |
+| Major influential parameters|  | feed rate(double point angle)[^15] |
 | Chip formation | Shear deformation |  Intermittent fractures and bouncing cutting force [^3] |
+| Stagnation zone | √ | × |
 | Failure modes | Flank wear, notch wear, crater wear, plastic deformation, built up edge, thermal crack, chipping and edge fracture | Fibre pullout, delamination, surface damage and burning being delamination |
+
+
 
 The drilling operation is produced by two removal process:
 
 + Main cutting edge: eliminate most of material, cutting orthogonally and generate bulk of the **torque** and **cutting force**
 + Chisel edge: as a blunt edge with a high rake angle working as a punching process and producing most of the **thrust force**
 
+### Stagnation zone
+
+In Stagnation zone, work material **does not flow** as quickly as the work material flow in the **rake** and **flank** surface. Stagnation zone may either contain a **dead metal** that sticks on the **top** of the **cutting edge**, **never sliding** or may contain a stagnation point. The work material is being separated around the stagnation point either to **form chip** to **become the new surface** of the workpiece.
+
+![Stagnation zone in metal cutting](./images/STAGNATION-IN-METAL-CUTTING.png)
+
+In machining metals the stagnant zone on cutting edge will **protect** the edge. [^14]. The cutting tool has been divided into 5 zones. Zone 1 and 5 don't have any **tribological contact** between work material and chip and **did not show any evidence** of wear. Zone 2 and 4 contacted the chip and machine surface, which are **crater** and **flank** wear respectively. Zone 3 doesn't exhibit any sign of wear due to **no relative velocity** between tool and work material.
+
+![5 zones of cutting edge](./images/wear-pattern-of-tool.png)
+
+The stagnation zone is stable during continuous chip formation, but may not stable in other type of chip formation process. The chip formation in CFRP material is dominated by the **fracture** without any stable stagnant zone. The work material flows around the cutting edge **without any disruption**, developing into the **edge rounding**. After the cutting edge become blunt, it can't efficiently cut the fibre, thus increasing the cutting force.
+
+### Wear type
+
+Depending on how wear is appearing it can be divided into three main groups: [^16]
+
++ Erosion 
++ Abrasion
++ Sliding & rolling
+
+The wearing mechanism is in most cases divided in three phases: deterioration, loss of material and transportation of residual products.
+
++ Deterioration: material is aged at the damaged surface
++ Material loss: particles are removed through wearing mechanism
++ Residual product transportation: particles are transported away, but also remain squeezed between two surfaces
+
+#### Erosion
+
+It happens when a stream of particles hit tool surface. It requires **multiple hits** and leads to **fracture** of **brittle** materials. Loss of material on **ductile** material takes place as a combination of **chip formation**, **fatigue** and **shear failure**.
+
+#### Abrasion
+
+Wear caused by **hard particles** or **sharp tips** on a surface the wear is called abrasion. Material loss is dominated by chip forming, brittle fracture and fatigue. The abrasive particles can be chips from material which becomes hard through deformation harding or oxidation. 
+
+If a sharp tip from one surface ploughs a groove in the other surface it is denominated two-part abrasion. 
+
+![Two parts abrasion](./images/two-parts-abrasion.jpg)
+
+If it is a particle between two surfaces that causes the wear it is denominated three-part abrasion.
+
+![Three parts abrasion](./images/three-parts-abrasion.jpg)
+
+#### Sliding and rolling
+
+Sliding and rolling wear between two surfaces may end in a great number of surface damage. The dominant mechanisms are shear and fatigue fracture, often proceed by oxidation and mechanical deterioration. One example of wear mechanism is adhesive wear when the tips of two surfaces sliding against each other are welded together and then torn apart. Wear through fatigue where small fragments are lost after repeated periods of rolling contact in for example roller bearings are further example of this type of wear mechanism.
+
 ### Different failure modes[^4]
 
-The figure below shows three different wear type. [^6]
+The figure below shows three different wear type.[^6]
 
 ![A worn cutting tool containing flank, crater and notch wear ](./images/Classification-of-a-worn-cutting-tool-showing-crater-wear-flank-wear-and-notch-wear-CFD.png)
+
+Figure below show the mechanism for friction and tool wear.[^13]
+
+![Mechanism for friction and tool wear](./images/mechanism-for-friction-and-tool-wear.png)
 
 #### Flank wear
 
@@ -72,11 +128,11 @@ In single point cutting of metals, a built up edge (BUE) is an accumulation of m
 The conditions necessary for a noticeable edge to build up are that:
 
 + the cutting speed is low.[^8] This is because at high cutting speeds the metal moving away from the workpiece becomes hot enough to recover before seizing onto the tool, preventing the formation of a BUE.[^9]
-the metal being cut is one that work-hardens and is reluctant to recover.[^8] A BUE will not form with pure metals since they do not work-harden much. Conversely, alloys, such as steel, do work-harden and recover less so they are prone to forming a BUE.[^9]
++ the metal being cut is one that work-hardens and is reluctant to recover.[^8] A BUE will not form with pure metals since they do not work-harden much. Conversely, alloys, such as steel, do work-harden and recover less so they are prone to forming a BUE.[^9]
 
 A built-up edge is when the workpiece material gets **welded** to the cutting edge. This usually occurs when **cutting temperatures are too low**. Additional chip flow is needed to avoid it. The remedies to this are to **increase the cutting speed**, and select a **more positive** insert geometry. Another remedy would be to **increase the coolant flow** to add lubricity. In the case of aluminum, use a **polished insert** to increase lubricity. In gummy steels, use a **smooth, slippery coating**.
 
-![Schematic diagram showing a built up edge.](./images/Built_up_edge.svg)
+![Schematic diagram showing a built up edge.](./images/Built_up_edge.png)
 
 The built up edge effectively changes tool geometry and rake steepness. It also reduces the contact area between the chip and the cutting tool,[^7] leading to:
 
@@ -163,3 +219,7 @@ In failure analysis, workers will check condition at predetermined intervals and
 [^10]: Rao, P.N. (2009). Manufacturing Technology - 2, Metal cutting and Machine tools. New Delhi: Tata McGraw-Hill. pp. 9–11. ISBN 978-0-07-008769-9.
 [^11]: https://www.harveyperformance.com/in-the-loupe/tag/thermal-cracking/
 [^12]: https://en.wikipedia.org/wiki/Fiber_pull-out
+[^13]: Wang, P., & Gao, R. X. (2016). Stochastic tool wear prediction for sustainable manufacturing. Procedia Cirp, 48, 236-241.
+[^14]: Schmidt J. Mechanical and thermal effects in turn hardened steels. Dissertation of University Hannover; 1999.
+[^15]: Karpat, Y., Değer, B., & Bahtiyar, O. (2012). Drilling thick fabric woven CFRP laminates with double point angle drills. Journal of materials processing technology, 212(10), 2117-2127.
+[^16]: https://xapps.xyleminc.com/Crest.Grindex/help/grindex/contents/wear01.htm
