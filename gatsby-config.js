@@ -33,6 +33,13 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`
+            }
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 650,
@@ -84,13 +91,7 @@ module.exports = {
               figureClassName: 'md-figure'
             },
           },
-          {
-            resolve: `gatsby-remark-katex`,
-            options: {
-              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-              strict: `ignore`
-            }
-          }
+          
           
         ],
       },
@@ -128,5 +129,6 @@ module.exports = {
     `gatsby-plugin-offline`,
     "gatsby-plugin-dark-mode",
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-image`,
   ],
 }
